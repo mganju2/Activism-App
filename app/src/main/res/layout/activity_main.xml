@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/BLM"
+    android:id="@+id/The Activist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#465B66"
+    android:background="#7295A6"
     tools:context=".MainActivity">
 
     <TextView
@@ -21,13 +21,13 @@
         android:text="The Activist"
         android:textSize="50dp"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/BLM"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/BLM"
         android:layout_width="199dp"
         android:layout_height="159dp"
         app:srcCompat="@drawable/blm"
@@ -65,7 +65,7 @@
         tools:layout_editor_absoluteY="108dp" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/GlobalW"
         android:layout_width="182dp"
         android:layout_height="180dp"
         app:srcCompat="@drawable/GlobalWarming"
