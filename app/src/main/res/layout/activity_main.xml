@@ -2,17 +2,75 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BLM"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#617E8C"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="25dp"
+        android:text="The Activist"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="199dp"
+        android:layout_height="159dp"
+        app:srcCompat="@drawable/blm"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <ImageButton
+        android:id="@+id/MeToo"
+        android:layout_width="178dp"
+        android:layout_height="179dp"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/MeToo"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageButton
+        android:id="@+id/MFOL"
+        android:layout_width="175dp"
+        android:layout_height="173dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/MarchForOurLives"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageButton
+        android:id="@+id/Pride"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pride"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="182dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/GlobalWarming"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="508dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
