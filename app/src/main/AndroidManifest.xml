@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GlobalWarming"></activity>
+        <activity android:name=".GlobalWarming" />
         <activity android:name=".MeToo" />
         <activity android:name=".MFOL" />
         <activity android:name=".Pride" />
