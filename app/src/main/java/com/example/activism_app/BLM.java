@@ -20,10 +20,10 @@ public class BLM extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blm);
 
-        tabLayout = findViewById(R.id.TabLayout);
-        blmtab1 = findViewById(R.id.Tab1);
-        blmtab2 = findViewById(R.id.Tab2);
-        blmtab3 = findViewById(R.id.Tab3);
+        tabLayout = findViewById(R.id.TabLayout1);
+        blmtab1 = findViewById(R.id.BLMTab1);
+        blmtab2 = findViewById(R.id.BLMTab2);
+        blmtab3 = findViewById(R.id.BLMTab3);
         viewPager = findViewById(R.id.viewpager);
 
         pagerAdapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());

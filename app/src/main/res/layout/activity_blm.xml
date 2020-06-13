@@ -8,25 +8,25 @@
     tools:context=".BLM">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/TabLayout"
+        android:id="@+id/TabLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/Tab1"
+            android:id="@+id/BLMTab1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tab_text_1" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/Tab2"
+            android:id="@+id/BLMTab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tab_text_2" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/Tab3"
+            android:id="@+id/BLMTab3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tab_text_3" />

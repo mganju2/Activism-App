@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Pride">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TabLayout2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pride"
-        android:textSize="50dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="302dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/PrideTab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_text_1" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/PrideTab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_text_2" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/PrideTab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_text_3" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

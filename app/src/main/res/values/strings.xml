@@ -6,7 +6,13 @@
     <string name="tab_text_3">Tab 3</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment1">Hello blank fragment1</string>
-    <string name="hello_blank_fragment2">Hello blank fragment2</string>
-    <string name="hello_blank_fragment3">Hello blank fragment3</string>
+    <string name="hello_blank_fragment1">Black Lives Matter 1</string>
+    <string name="hello_blank_fragment2">Black Lives Matter 2</string>
+    <string name="hello_blank_fragment3">Black Lives Matter 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pride1">Pride1</string>
+    <string name="pride2">Pride2</string>
+    <string name="pride3">Pride3</string>
+
 </resources>
