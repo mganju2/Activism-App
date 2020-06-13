@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Activism-App</string>
     <string name="title_activity_blmtabs">BLMTabs</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_1">History</string>
+    <string name="tab_text_2">Resources</string>
+    <string name="tab_text_3">Extra</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment1">Black Lives Matter 1</string>
