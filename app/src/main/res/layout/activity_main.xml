@@ -62,7 +62,7 @@
 
     <ImageButton
         android:id="@+id/MFOL"
-        android:layout_width="183dp"
+        android:layout_width="180dp"
         android:layout_height="173dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
@@ -80,8 +80,8 @@
 
     <ImageButton
         android:id="@+id/MeToo"
-        android:layout_width="176dp"
-        android:layout_height="174dp"
+        android:layout_width="180dp"
+        android:layout_height="173dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="42dp"
@@ -98,8 +98,8 @@
 
     <ImageButton
         android:id="@+id/GlobalW"
-        android:layout_width="172dp"
-        android:layout_height="186dp"
+        android:layout_width="180dp"
+        android:layout_height="173dp"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginTop="21dp"
