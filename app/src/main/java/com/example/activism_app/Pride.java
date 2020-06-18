@@ -10,9 +10,8 @@ import com.google.android.material.tabs.TabLayout;
 
 public class Pride extends AppCompatActivity {
 
-    private TabLayout tabLayout;
+
     private ViewPager viewPager;
-    private TabItem pridetab1, pridetab2, pridetab3;
     public PageAdapterPride pagerAdapter;
 
     @Override
@@ -20,10 +19,10 @@ public class Pride extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pride);
 
-        tabLayout = findViewById(R.id.TabLayout2);
-        pridetab1 = findViewById(R.id.PrideTab1);
-        pridetab2 = findViewById(R.id.PrideTab2);
-        pridetab3 = findViewById(R.id.PrideTab3);
+        TabLayout tabLayout = findViewById(R.id.TabLayout2);
+        TabItem pridetab1 = findViewById(R.id.PrideTab1);
+        TabItem pridetab2 = findViewById(R.id.PrideTab2);
+        TabItem pridetab3 = findViewById(R.id.PrideTab3);
         viewPager = findViewById(R.id.viewpagerpride);
 
         pagerAdapter = new PageAdapterPride(getSupportFragmentManager(), tabLayout.getTabCount());

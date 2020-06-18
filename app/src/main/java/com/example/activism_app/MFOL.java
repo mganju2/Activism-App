@@ -10,9 +10,7 @@ import com.google.android.material.tabs.TabLayout;
 
 public class MFOL extends AppCompatActivity {
 
-    private TabLayout tabLayout;
     private ViewPager viewPager;
-    private TabItem mfoltab1, mfoltab2, mfoltab3;
     public PageAdapterMFOL pagerAdapter;
 
     @Override
@@ -20,10 +18,10 @@ public class MFOL extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mfol);
 
-        tabLayout = findViewById(R.id.TabLayout3);
-        mfoltab1 = findViewById(R.id.MFOLTab1);
-        mfoltab2 = findViewById(R.id.MFOLTab2);
-        mfoltab3 = findViewById(R.id.MFOLTab3);
+        TabLayout tabLayout = findViewById(R.id.TabLayout3);
+        TabItem mfoltab1 = findViewById(R.id.MFOLTab1);
+        TabItem mfoltab2 = findViewById(R.id.MFOLTab2);
+        TabItem mfoltab3 = findViewById(R.id.MFOLTab3);
         viewPager = findViewById(R.id.viewpagermfol);
 
         pagerAdapter = new PageAdapterMFOL(getSupportFragmentManager(), tabLayout.getTabCount());

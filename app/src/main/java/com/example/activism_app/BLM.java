@@ -10,9 +10,7 @@ import com.google.android.material.tabs.TabLayout;
 
 public class BLM extends AppCompatActivity {
 
-    private TabLayout tabLayout;
     private ViewPager viewPager;
-    private TabItem blmtab1, blmtab2, blmtab3;
     public PageAdapter pagerAdapter;
 
     @Override
@@ -20,10 +18,10 @@ public class BLM extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blm);
 
-        tabLayout = findViewById(R.id.TabLayout1);
-        blmtab1 = findViewById(R.id.BLMTab1);
-        blmtab2 = findViewById(R.id.BLMTab2);
-        blmtab3 = findViewById(R.id.BLMTab3);
+        TabLayout tabLayout = findViewById(R.id.TabLayout1);
+        TabItem blmtab1 = findViewById(R.id.BLMTab1);
+        TabItem blmtab2 = findViewById(R.id.BLMTab2);
+        TabItem blmtab3 = findViewById(R.id.BLMTab3);
         viewPager = findViewById(R.id.viewpagerblm);
 
         pagerAdapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
