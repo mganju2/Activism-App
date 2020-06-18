@@ -20,8 +20,8 @@
             android:id="@+id/Origins"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Origins"
-            android:textSize="40dp"/>
+            android:text="@string/history_section_1"
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/textView8"
@@ -33,14 +33,8 @@
             android:id="@+id/Present_Day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Present Day"
-            android:textSize="40dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/Origins"
-            app:layout_constraintVertical_bias="0.35" />
+            android:text="@string/history_section_2"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -52,8 +46,8 @@
             android:id="@+id/Timeline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Timeline"
-            android:textSize="40dp"/>
+            android:text="@string/history_section_3"
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/textView11"
@@ -65,8 +59,8 @@
             android:id="@+id/More_Info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="More Information"
-            android:textSize="40dp"/>
+            android:text="@string/history_section_4"
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/textView13"
@@ -78,13 +72,13 @@
             android:id="@+id/Work_Cited"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Work Cited "
-            android:textSize="40dp"/>
+            android:text="@string/history_section_5"
+            android:textSize="40sp"/>
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="78dp"
-            android:text="TextView" />
+            android:text="Provide citations here" />
     </LinearLayout>
 </ScrollView>
