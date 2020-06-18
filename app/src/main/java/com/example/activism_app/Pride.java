@@ -24,7 +24,7 @@ public class Pride extends AppCompatActivity {
         pridetab1 = findViewById(R.id.PrideTab1);
         pridetab2 = findViewById(R.id.PrideTab2);
         pridetab3 = findViewById(R.id.PrideTab3);
-        viewPager = findViewById(R.id.viewpager);
+        viewPager = findViewById(R.id.viewpagerpride);
 
         pagerAdapter = new PageAdapterPride(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);

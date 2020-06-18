@@ -24,7 +24,7 @@ public class BLM extends AppCompatActivity {
         blmtab1 = findViewById(R.id.BLMTab1);
         blmtab2 = findViewById(R.id.BLMTab2);
         blmtab3 = findViewById(R.id.BLMTab3);
-        viewPager = findViewById(R.id.viewpager);
+        viewPager = findViewById(R.id.viewpagerblm);
 
         pagerAdapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
