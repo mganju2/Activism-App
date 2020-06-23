@@ -14,7 +14,8 @@
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BLM extra " />
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="This is where you get a chance to share any information you would like that would help educate others. We should also ask them to post stuff about their local protests, petitions, voting bills etc. I wonder if we can make it region specific but that could be hella confusing so for not everyone will be able to see the stuff on this page " />
     </LinearLayout>
 </ScrollView>
