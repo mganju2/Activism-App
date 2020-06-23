@@ -4,19 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#AE80FF"
     tools:context=".mfoltab2">
 
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
+        android:id="@+id/BLM_Resources"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MFOL Resources" />
+            android:text="@string/resources_section_1"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:text="Explain what all there is to do and how it can make a difference and then below have the specific sections" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:text="@string/resources_section_2"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resources_section_3"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resources_section_4"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resources_section_5"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
     </LinearLayout>
 </ScrollView>
