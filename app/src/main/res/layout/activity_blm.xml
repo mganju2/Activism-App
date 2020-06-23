@@ -11,6 +11,7 @@
         android:id="@+id/TabLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#80D7FF"
         >
 
         <com.google.android.material.tabs.TabItem
