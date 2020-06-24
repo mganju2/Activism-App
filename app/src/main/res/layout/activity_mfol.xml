@@ -7,6 +7,10 @@
     android:orientation="vertical"
     tools:context=".MFOL">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/TabLayout3"
         android:layout_width="match_parent"
