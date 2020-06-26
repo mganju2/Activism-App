@@ -42,7 +42,7 @@
             android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/Petitons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resources_section_3"
@@ -55,7 +55,7 @@
             android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/Protests"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resources_section_4"
@@ -68,7 +68,7 @@
             android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/Voting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resources_section_5"
