@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".GlobalWarming" />
-        <activity android:name=".MeToo" />
+        <activity android:name=".MeToo"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MFOL"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".Pride"

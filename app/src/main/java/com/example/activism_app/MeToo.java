@@ -3,6 +3,7 @@ package com.example.activism_app;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabItem;
@@ -17,6 +18,11 @@ public class MeToo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_me_too);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Me Too");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TabLayout tabLayout = findViewById(R.id.TabLayout4);
         TabItem metab1 = findViewById(R.id.MeTab1);
