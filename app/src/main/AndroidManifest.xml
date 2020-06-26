@@ -11,9 +11,12 @@
         android:theme="@style/AppTheme">
         <activity android:name=".GlobalWarming" />
         <activity android:name=".MeToo" />
-        <activity android:name=".MFOL" />
-        <activity android:name=".Pride" />
-        <activity android:name=".BLM" />
+        <activity android:name=".MFOL"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Pride"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".BLM"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
