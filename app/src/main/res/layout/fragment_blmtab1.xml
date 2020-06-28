@@ -17,14 +17,11 @@
 
         <TextView
             android:id="@+id/Origins"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/history_section_1"
-            android:layout_marginStart="120dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginEnd="90dp"
-            android:layout_marginRight="90dp"
-            android:textSize="45dp" />
+            android:textSize="45sp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -32,18 +29,35 @@
             android:layout_height="204dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
-            android:layout_marginEnd="155dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="        After World War II, White Americans became increasingly overwhelmed with the influx of African Americans entering their communities, which triggered their deeply ingrained racist opinions about them. Holding the beliefs of many racist white people in America at the time, they believed that African Americans, especially men, were inherently criminals that needed to be stopped. This led to punishments towards black people including physical assault, beatings, verbal abuse, sexual harassment towards black women, and threats. The general white public did not become aware of this issue until the mid 1960’s.  " />
 
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="326dp"
-            android:layout_height="131dp"
-            android:layout_marginStart="150dp"
-            android:layout_marginLeft="150dp"
-            android:src="@drawable/BLM2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="200dp"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/BLM2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/BLM3" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView4"
@@ -68,7 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/history_section_2"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/textView7"
@@ -79,59 +94,21 @@
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:text="       The Black Lives Matter movement started in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi. They wanted to create an organization to prevent the mistreatment of African Americans. It was in response to the acquittal of those responsible for Trayvon Martin’s murder. The Black Lives Matter movement is an ideological and political platform that highlights situations where African Americans are put to a disadvantage due to racism. For example, in 2014, African American Mike Brown was wrongfully murdered by a police officer. BLM organized a protest to support him, and they were tear gassed and pepper sprayed by the police. They were also heavily criticized on social media. Afterwards, the BLM movement started in 18 separate cities." />
+
         <TextView
             android:id="@+id/Timeline"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
             android:text="@string/history_section_3"
-            android:textSize="40sp"/>
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:text="Here are some significant events that led to the national awareness of Black Lives Matter:" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:text="July 13th, 2013: Movement began in 2013 by 3 black women Alicia Garza, Patrisse Cullors, and Opal Tometi. Created as a black-sentered political movement due to the acquittal of Trevon Martin’s murderer George Zimmerman." />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:text="July 20, 2013: First massive protest occurs for Trayvon Martin; over 1,000 people stage a sit-in in Times Square." />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:text="August-November, 2014: Many protests were held for Michael Brown including freedom riders taking buses to Missouri to support protestors, 4 ½ hour traffic stop incident, Times Square march after the release of Darren Wilson. " />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/More_Info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
             android:text="@string/history_section_4"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView13"
@@ -141,10 +118,11 @@
 
         <TextView
             android:id="@+id/Work_Cited"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
             android:text="@string/history_section_5"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView15"
