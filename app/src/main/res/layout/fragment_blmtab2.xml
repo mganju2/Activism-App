@@ -24,11 +24,11 @@
             android:text="@string/resources_section_1"
             android:textSize="40sp"/>
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="115dp"
-            android:text="Explain what all there is to do and how it can make a difference and then below have the specific sections" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="440dp"
+            android:layout_height="205dp"
+            android:src="@drawable/BLMAction" />
 
         <TextView
             android:id="@+id/Donations"
@@ -40,8 +40,32 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="129dp"
-            android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
+            android:layout_height="wrap_content"
+            android:text="There are so many organizations that are in need of your charitable donations. These groups are working towards equal treatment of people of color. Any amount will help out profusely!" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Here is a list of 142 places you can donate to show your support for BLM!- https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="There is also a list of 24 locations to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Minnesota Freedom Fund is a Nonprofit that pays bail for people that are arrested while protesting police brutality. Donate and show your support here: https://minnesotafreedomfund.org/ " />
 
         <TextView
             android:id="@+id/Petitons"
@@ -113,5 +137,6 @@
             android:layout_width="match_parent"
             android:layout_height="141dp"
             android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
+
     </LinearLayout>
 </ScrollView>
