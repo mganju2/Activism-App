@@ -12,7 +12,7 @@ public class GlobalWarming extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private TabItem globaltab1, globaltab2, globaltab3;
-    public PageAdapter pageradapter;
+    public PageAdapterGlobal pagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +24,8 @@ public class GlobalWarming extends AppCompatActivity {
         globaltab3 = findViewById(R.id.globalTab3);
         viewPager = findViewById(R.id.viewpagerglobal);
 
-        pageradapter = new PageAdapterGlobal(getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(pageradapter);
+        pagerAdapter = new PageAdapterGlobal(getSupportFragmentManager(), tabLayout.getTabCount());
+        viewPager.setAdapter(pagerAdapter);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -50,6 +50,8 @@ public class GlobalWarming extends AppCompatActivity {
 
             }
         });
+
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
     }
 }
