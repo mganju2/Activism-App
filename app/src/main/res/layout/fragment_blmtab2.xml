@@ -26,9 +26,9 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="440dp"
-            android:layout_height="205dp"
-            android:src="@drawable/BLMAction" />
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:src="@drawable/blmAction" />
 
         <TextView
             android:id="@+id/Donations"
