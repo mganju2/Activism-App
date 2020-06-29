@@ -15,10 +15,11 @@
 
         <TextView
             android:id="@+id/Action_Items"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/resources_section_1"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -28,8 +29,9 @@
 
         <TextView
             android:id="@+id/Donations"
-            android:layout_width="401dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/resources_section_2"
             android:textSize="40sp" />
 
@@ -41,10 +43,11 @@
 
         <TextView
             android:id="@+id/Petitons"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/resources_section_3"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView19"
@@ -54,10 +57,11 @@
 
         <TextView
             android:id="@+id/Protests"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/resources_section_4"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView21"
@@ -67,10 +71,11 @@
 
         <TextView
             android:id="@+id/Voting"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/resources_section_5"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView23"
