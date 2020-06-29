@@ -1,6 +1,7 @@
 package com.example.activism_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
@@ -17,6 +18,11 @@ public class GlobalWarming extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_global_warming);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Global Warming");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         tabLayout = findViewById(R.id.TabLayout5);
         globaltab1 = findViewById(R.id.globalTab1);

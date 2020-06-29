@@ -8,6 +8,10 @@
     android:orientation="vertical"
     tools:context=".GlobalWarming">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/TabLayout5"
         android:layout_width="match_parent"
