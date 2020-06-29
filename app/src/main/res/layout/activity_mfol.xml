@@ -15,7 +15,7 @@
         android:id="@+id/TabLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#AE80FF"
+        android:background="#FFCC80"
         >
 
         <com.google.android.material.tabs.TabItem

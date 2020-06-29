@@ -75,7 +75,7 @@
             android:layout_height="136dp"
             android:layout_marginStart="3dp"
             android:layout_marginLeft="3dp"
-            android:src="@drawable/BLM1" />
+            android:src="@drawable/blm1" />
 
         <TextView
             android:id="@+id/Present_Day"

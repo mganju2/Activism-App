@@ -37,12 +37,6 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <TextView
-        android:id="@id/BLMTab1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is for the first tab" />
-
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpagerblm"
         android:layout_width="match_parent"
