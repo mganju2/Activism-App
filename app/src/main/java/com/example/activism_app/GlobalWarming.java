@@ -1,6 +1,7 @@
 package com.example.activism_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
@@ -12,11 +13,16 @@ public class GlobalWarming extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private TabItem globaltab1, globaltab2, globaltab3;
-    public PageAdapter pageradapter;
+    public PageAdapterGlobal pagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_global_warming);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Global Warming");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         tabLayout = findViewById(R.id.TabLayout5);
         globaltab1 = findViewById(R.id.globalTab1);
@@ -24,8 +30,8 @@ public class GlobalWarming extends AppCompatActivity {
         globaltab3 = findViewById(R.id.globalTab3);
         viewPager = findViewById(R.id.viewpagerglobal);
 
-        pageradapter = new PageAdapterGlobal(getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(pageradapter);
+        pagerAdapter = new PageAdapterGlobal(getSupportFragmentManager(), tabLayout.getTabCount());
+        viewPager.setAdapter(pagerAdapter);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -50,6 +56,8 @@ public class GlobalWarming extends AppCompatActivity {
 
             }
         });
+
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
     }
 }
