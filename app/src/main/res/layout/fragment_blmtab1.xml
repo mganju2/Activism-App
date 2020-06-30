@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_1"
+            android:textColor="#000000"
             android:textSize="45sp" />
 
         <TextView
@@ -31,6 +32,7 @@
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
+            android:textColor="#000000"
             android:text="        After World War II, White Americans became increasingly overwhelmed with the influx of African Americans entering their communities, which triggered their deeply ingrained racist opinions about them. Holding the beliefs of many racist white people in America at the time, they believed that African Americans, especially men, were inherently criminals that needed to be stopped. This led to punishments towards black people including physical assault, beatings, verbal abuse, sexual harassment towards black women, and threats. The general white public did not become aware of this issue until the mid 1960’s.  " />
 
 
@@ -67,6 +69,7 @@
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="16dp"
+            android:textColor="#000000"
             android:text="       After African Americans fought in this World War, they started to demand for rights to vote, hold office, etc. This became a wakening call for police officers to be the “white protectors” of the nation.  Organizations such as White Citizens’ Council and Klu Klux Klan became very prominent and raised their voices to fight the rights of African Americans.  In Northern states, as African Americans became more prevalent in communities, it only led to police officers feeling more hesitant.  " />
 
         <ImageView
@@ -83,6 +86,7 @@
             android:layout_height="wrap_content"
             android:text="@string/history_section_2"
             android:textSize="40sp"
+            android:textColor="#000000"
             android:layout_gravity="center"/>
 
         <TextView
@@ -93,6 +97,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
+            android:textColor="#000000"
             android:text="       The Black Lives Matter movement started in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi. They wanted to create an organization to prevent the mistreatment of African Americans. It was in response to the acquittal of those responsible for Trayvon Martin’s murder. The Black Lives Matter movement is an ideological and political platform that highlights situations where African Americans are put to a disadvantage due to racism. For example, in 2014, African American Mike Brown was wrongfully murdered by a police officer. BLM organized a protest to support him, and they were tear gassed and pepper sprayed by the police. They were also heavily criticized on social media. Afterwards, the BLM movement started in 18 separate cities." />
 
         <TextView
@@ -101,29 +106,40 @@
             android:layout_height="56dp"
             android:layout_gravity="center"
             android:text="@string/history_section_3"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="381dp"
             android:layout_height="474dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:padding="0dp"
             android:scaleType="fitCenter"
             android:src="@drawable/timeline_blm" />
 
-        <TextView
-            android:id="@+id/More_Info"
-            android:layout_width="wrap_content"
-            android:layout_height="56dp"
-            android:layout_gravity="center"
-            android:text="@string/history_section_4"
-            android:textSize="40sp" />
-
-        <TextView
-            android:id="@+id/textView13"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="131dp"
-            android:text="Add extra links here" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/blmprotest" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="216dp"
+                android:layout_height="139dp"
+                android:layout_weight="1"
+                android:src="@drawable/blm5" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/Work_Cited"
@@ -131,6 +147,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:text="@string/history_section_5"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <TextView
@@ -140,6 +157,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
+            android:textColor="#000000"
             android:layout_marginRight="155dp"/>
 
 

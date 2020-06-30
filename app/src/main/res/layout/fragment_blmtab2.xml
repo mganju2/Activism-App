@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_1"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
 
         <ImageView
             android:id="@+id/imageView5"
@@ -32,42 +33,84 @@
             android:src="@drawable/blm_action" />
 
         <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="       It can be really overwhelming when it comes to trying to understand this movement. There is a lot of information to read about and so much to learn about that it can be confusing on how one can help make a difference. If you are here reading and looking for a way to help out you have already done step one. Being educated on this matter is highly important. "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000" />
+
+        <TextView
             android:id="@+id/Donations"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_2"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="match_parent"
+            android:layout_width="378dp"
             android:layout_height="wrap_content"
-            android:text="There are so many organizations that are in need of your charitable donations. These groups are working towards equal treatment of people of color. Any amount will help out profusely!" />
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="There are so many organizations that are in need of your charitable donations. These groups are working towards equal treatment of people of color. Any amount will help out profusely!"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="match_parent"
+            android:layout_width="377dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Here is a list of 142 places you can donate to show your support for BLM!- https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html" />
+            android:text="Here is a list of 142 places you can donate to show your support for BLM!- https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView24"
-            android:layout_width="match_parent"
+            android:layout_width="377dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="There is also a list of 24 locations to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate" />
+            android:text="There is also a list of 24 locations to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView25"
-            android:layout_width="match_parent"
+            android:layout_width="377dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Minnesota Freedom Fund is a Nonprofit that pays bail for people that are arrested while protesting police brutality. Donate and show your support here: https://minnesotafreedomfund.org/ " />
+            android:text="Minnesota Freedom Fund is a Nonprofit that pays bail for people that are arrested while protesting police brutality. Donate and show your support here: https://minnesotafreedomfund.org/ "
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -75,45 +118,77 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_3"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView19"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="Here are a few to get started on. It just takes a few clicks to help push forward the change!"
+            android:textColor="#000000" />
+
+        <Switch
+            android:id="@+id/switch1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Here are a few to get started on. It just takes a few clicks to help push forward the change!" />
+            android:text="Switch" />
 
         <TextView
             android:id="@+id/textview24"
-            android:layout_width="match_parent"
+            android:layout_width="371dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Justice For Breonna Taylor - https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page" />
+            android:text="Justice For Breonna Taylor - https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="371dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Justice for Elijah McClain - https://www.change.org/p/aurora-colorado-district-attorney-justice-for-elijah-mcclain?source_location=topic_page" />
+            android:text="Justice for Elijah McClain - https://www.change.org/p/aurora-colorado-district-attorney-justice-for-elijah-mcclain?source_location=topic_page"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="match_parent"
+            android:layout_width="371dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Justice for George Floyd - https://www.change.org/p/mayor-jacob-frey-justice-for-george-floyd?source_location=topic_page" />
+            android:text="Justice for George Floyd - https://www.change.org/p/mayor-jacob-frey-justice-for-george-floyd?source_location=topic_page"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="match_parent"
+            android:layout_width="370dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Many more petitions can be found at https://www.change.org/ " />
+            android:text="Many more petitions can be found at https://www.change.org/ "
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Protests"
@@ -121,13 +196,71 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_4"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView21"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="       Protests have been extremely important in understanding the issues this country faces. In the past, many people did not support protests, as CNN states that in 2016, 18% of people fully supported protests, while 28% supported them partially. Now, both numbers have jumped to 38% and 29% respectively. By race, white people's support for BLM protests have gone from 40% to 61%, 33% to 78% by Hispanic people, and 65% to 86% for African Americans.  The people's voice matters, and if enough choose to speak up and demand a change, there will be one. Especially in the younger generation, there are much louder voices that are pressuring officials to take action. 4 out of 5 people under the age of thirty support BLM, and they are the ones leading these protests. "
+            android:textColor="#000000" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="       On May 28, 2020, there were over 8 million tweets related to Black Lives Matter, which is a startling increase from the number of tweets in 2014, which was 146,000. As the new generation becomes more tech-savvy and technology dependent, news will start to spread like wildfire. There have been thousands of videos of proof that show African Americans being beaten and mistreated by police officers, which only fuels the protestors fire. Protests are working and are spreading messages globally, but people must be able to act in the bravery of these protestors and make decisions that will prevent African Americans from ever recieving unfair treatment again.  "
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="380dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="170dp"
+                    android:layout_height="84dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/blm6" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="192dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/blm7" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/blm8" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="111dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/blm9" />
+            </LinearLayout>
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/Voting"
@@ -140,7 +273,7 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="141dp"
+            android:layout_height="180dp"
             android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
 
     </LinearLayout>
