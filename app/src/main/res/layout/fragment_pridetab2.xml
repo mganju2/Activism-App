@@ -46,14 +46,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_3"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="Here are two websites full of many petitions to push forward change for the lgbtq+ community. It will only take a few clicks to help make a big difference in many people’s lives. Please help push forward the change!" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.thepetitionsite.com/lgbtq-rights/#hottest" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.change.org/t/lgbt-rights-3" />
 
         <TextView
             android:id="@+id/Protests"

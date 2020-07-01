@@ -102,7 +102,7 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="131dp"
-            android:text="Add extra links here" />
+            android:text="Put youtube vieos here " />
 
         <TextView
             android:id="@+id/Work_Cited"
