@@ -43,6 +43,23 @@
             android:text="       It can be really overwhelming when it comes to trying to understand this movement. There is a lot of information to read about and so much to learn about that it can be confusing on how one can help make a difference. If you are here reading and looking for a way to help out you have already done step one. Being educated on this matter is highly important. "
             android:textColor="#000000" />
 
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/blm10" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="       Some extremely important ways to help out include signing petitions, donating, showing and supporting protests, and voting.  Donating is a crucial part of these movements because organizations gain traction from YOUR support, and you can help them continue to fund movements such as Black Lives Matter and help disassemble racist organizations. Aside from donating money, donating your time is equally as important and many organizations are looking for extra hands to help out. Signing petitions extremely important as well because it is a way to gather thousands of signatures and demand for a change, because it has been proven through several social media sites that signing petitions and connecting with people through technology will speak volumes. "
+            android:textColor="#000000" />
+
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
@@ -268,13 +285,40 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_5"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="       Voting is maybe the most important because it allows for real policy changes. Vote in your primaries to make sure you elect officials who are in support of bills and laws that support groups that need the protection of the law. Vote in the presidential election for a candidate that treats all human beings as equal and is not in an active effort to take certain groups of people’s rights away. Remember that YOU have a voice, so speak up and vote."
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/blm11" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="240dp"
+                android:layout_height="192dp"
+                android:layout_weight="1"
+                android:src="@drawable/blm12" />
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
