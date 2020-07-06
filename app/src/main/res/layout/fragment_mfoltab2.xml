@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_1"
             android:textSize="40sp" />
 
@@ -27,6 +28,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="115dp"
+            android:textColor="#000000"
             android:text="Explain what all there is to do and how it can make a difference and then below have the specific sections" />
 
         <TextView
@@ -34,34 +36,137 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_2"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="129dp"
-            android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="So many organizations are tyring to make a change they just need your help and support to keep doing the amazing work that they have been doing." />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="March For Our Lives is a student led organization focused on ending gun violence specifically in schools - \nhttps://marchforourlives.com/" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Everytown for Gun Safety focuses on ending gun violence in all communities and they have multiple branches focusing on different issues related to gun control and violence. - https://everytown.org/ " />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Brady has many programs including combating crime guns, educating gun owners, educating the youth, and going to court with the gun industry. - \nhttps://www.bradyunited.org/" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Giffords is an organization that is focused on 3 key points when it comes to gun violence. They believe there must be a change in American culture, they propose new gun policies, and they hold the gun lobby accountable for profiting off the public. - https://giffords.org/ " />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="The Coalition to Stop Gun Violence (CSGV) - Their mission is to stop gun violence through evidence based solutions. - https://www.csgv.org/" />
 
         <TextView
             android:id="@+id/Petitons"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_3"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="Here are a few to get started on. It just takes a few clicks to help push forward the change! These petitions below are all targeted at creating stricter gun control laws. For more details on each specific petition click on the links below. " />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.change.org/p/march-for-our-lives-an-act-to-protect-save-your-children?signed=true\nhttps://sign.moveon.org/petitions/gun-control-now-1\nhttps://sign.moveon.org/petitions/gun-control-now-101" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="For many more petitions related to gun violence and control check out - https://www.change.org/t/gun-control" />
 
         <TextView
             android:id="@+id/Protests"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_4"
             android:textSize="40sp" />
 
@@ -69,6 +174,7 @@
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="137dp"
+            android:textColor="#000000"
             android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
 
         <TextView
@@ -76,6 +182,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_5"
             android:textSize="40sp" />
 
@@ -83,6 +190,7 @@
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="141dp"
+            android:textColor="#000000"
             android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
     </LinearLayout>
 </ScrollView>
