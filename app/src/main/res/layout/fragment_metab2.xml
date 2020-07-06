@@ -44,8 +44,9 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Donating time or money to MeToo is allowing these organizations to gain the resources to allow women to share their stories without fear. With the fear they live with day to day, these organizations are providing a safe outlet that women can begin their journey of healing. Here are some nonprofits that are looking for helpers and donations."
+            android:text="Donating time or money to MeToo is allowing these organizations to gain the resources to allow survivors to share their stories without fear. Here are some nonprofits that are looking for helpers and donations."
             android:textColor="#000000" />
+
 
         <TextView
             android:id="@+id/textView36"
@@ -55,10 +56,10 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://metoomvmt.org/donate/" />
+            android:textColor="#000000"
+            android:text="Me Too is a movement that helps women find ways to heal from experiences of sexual assault - \nhttps://metoomvmt.org/donate/ " />
 
         <TextView
             android:id="@+id/textView37"
@@ -68,11 +69,10 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://greatnonprofits.org/categories/view/metoo-movement" />
-
+            android:textColor="#000000"
+            android:text="National Sexual Violence Resource Center is a non-profit organization that attempts to prevent and attend to sexual violence - https://www.nsvrc.org/donate" />
 
         <TextView
             android:id="@+id/textView38"
@@ -82,10 +82,10 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://timesupnow.org/" />
+            android:textColor="#000000"
+            android:text="Rape, Abuse &amp; Incest National Network (RAINN) is an anti-sexual assault organization that helps survivors, educates society, and improves public policy. - \nhttps://www.rainn.org/donate" />
 
         <TextView
             android:id="@+id/textView39"
@@ -95,10 +95,23 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://www.charitynavigator.org/index.cfm?bay=content.viewcpid=7888" />
+            android:textColor="#000000"
+            android:text="End Rape On Campus (EROC) is an organization that focuses on sexual assault prevention throughout college campuses. - https://endrapeoncampus.org/our-team-1/ " />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Time’s Up works towards ending sexual harassment, assault and discrimination in the workplace - \nhttps://timesupnow.org/" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -134,12 +147,6 @@
 
 
         <TextView
-            android:id="@+id/textView41"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
             android:id="@+id/Protests"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -151,8 +158,13 @@
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="When someone experiences a traumatic event like sexual assault it is very difficult for that person to ever fully recover and gain the courage to stand up for themselves. The Me Too movement exemplified how society instils a fear in survivors that keeps them from sharing their stories. We must stand in solidarity with these victims to provide them the strength to rise up and face their perpetrators. When there is a protest or march or rally people must show up and prove to the oppressors that think they got away with their horrendous actions that there are consequences for horrible, disgusting behavior that ruins someone else’s life. It is time for change and it is time to put an end to the suffering of many women across the world. If change is created now then future generations of women and girls will not have to live in fear of being sexually assaulted in their lifetime. " />
 
         <TextView
             android:id="@+id/Voting"
