@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,8 +17,98 @@
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="This is where you get a chance to share any information you would like that would help educate others. We should also ask them to post stuff about their local protests, petitions, voting bills etc. I wonder if we can make it region specific but that could be hella confusing so for not everyone will be able to see the stuff on this page " />
+            android:textColor="#000000"
+            android:text="Additional Information"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="In this section, we have added links to additional videos and articles we feel are beneficial in understanding the history of the MeToo movement that goes more into depth than we did in our previous tabs. If you can, take a few minutes to look through the articles and videos so you can become more educated on an extremely important topic. " />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/metooadd1" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.businessinsider.com/how-the-metoo-movement-started-where-its-headed-tarana-burke-time-person-of-year-women-2017-12"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:src="@drawable/metooadd2" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.nbcnews.com/think/opinion/me-too-movement-s-success-took-decade-work-not-just-ncna1108206"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:src="@drawable/metooadd3" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.cnn.com/videos/us/2018/12/23/me-too-2018-wrap-lc-me-cs-orig.cnn"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="match_parent"
+            android:layout_height="437dp"
+            android:src="@drawable/metooadd4" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.kjrh.com/news/national-politics/the-race-2020/how-the-metoo-movement-is-changing-culture"
+            android:textColor="#000000" />
+
     </LinearLayout>
+
 
 </ScrollView>

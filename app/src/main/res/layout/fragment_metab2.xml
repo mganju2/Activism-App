@@ -39,8 +39,66 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="129dp"
-            android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Donating time or money to MeToo is allowing these organizations to gain the resources to allow women to share their stories without fear. With the fear they live with day to day, these organizations are providing a safe outlet that women can begin their journey of healing. Here are some nonprofits that are looking for helpers and donations."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://metoomvmt.org/donate/" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://greatnonprofits.org/categories/view/metoo-movement" />
+
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://timesupnow.org/" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.charitynavigator.org/index.cfm?bay=content.viewcpid=7888" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -48,13 +106,38 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_3"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Petitions are a great way to show your support for important movements, including the MeToo movement. By signing some of the petitions below, you are becoming part of a team that is aimed to make a change for all women in the world. Here are some links to sign below."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.change.org/m/metoo" />
+
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
 
         <TextView
             android:id="@+id/Protests"
@@ -62,6 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_4"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <TextView

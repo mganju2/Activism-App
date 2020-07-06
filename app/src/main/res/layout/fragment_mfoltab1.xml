@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,13 +23,73 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_1"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="This was a student led protest that was started to support anti-gun laws - prevent gun violence  The shooting that triggered this movement happened at the Marjory Stoneman Douglas High School in Parkland, Florida The students of the high school organized a march together and a few started the Never Again campaign  " />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text='       March For Our Lives started as a student led protest that was  supported anti-gun laws, their goal was to prevent gun violence. The shooting that triggered this movement happened at the Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event occured, students at the high school organized a "Never Again" campaign. At the forefront of the campaign was Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement overall gained a lot of support from many celebrities who donated a lot of money and came out in person to support the marches all around the country. Soon enough, March For Our Lives became the biggest student led protest since the Vietnam War era. '
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/mfol1" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/mfol2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="392dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:src="@drawable/mfol3" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mfol4" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The NRA was very against these marches and even released a statement saying the upper class was manipulating children to get rid of the Second Amendment. In terms of support from political parties, many democrats supported the movement and many even showed up to the sidelines of the marches. Republicans on the other hand were not in support of the marches, and believed they were trying to take away their Second Amendment rights. "
+                android:textColor="#000000" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/Present_Day"
@@ -36,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_2"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -57,20 +118,6 @@
             android:layout_width="match_parent"
             android:layout_height="219dp"
             android:text="Bullet points or images for the timeline here" />
-
-        <TextView
-            android:id="@+id/More_Info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/history_section_4"
-            android:textSize="40sp"/>
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="131dp"
-            android:text="Add extra links here" />
 
         <TextView
             android:id="@+id/Work_Cited"
