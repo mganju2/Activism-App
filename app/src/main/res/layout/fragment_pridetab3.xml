@@ -16,6 +16,43 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/history_section_4" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There is a lot more to learn about the LGBTQIA+ community so we have provided some resources that can help further your knowledge about this subject!" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="These are some informational videos on the history or the LGBTQ+ community -\nhttps://www.youtube.com/watch?v=Q1D65SxzojI\nhttps://www.youtube.com/watch?v=wkzwDOCEDCo\nhttps://www.youtube.com/watch?v=GjRv7dJTync" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Below are a few links that provide important information about some of the movements the LGBTQ+ community has been through in the past.\nhttps://www.britannica.com/topic/gay-rights-movement\nhttps://en.wikipedia.org/wiki/LGBT_social_movements" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="For some current news on the struggles and progress of the LGBTQ+ community please take a look at these websites -\nhttps://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html\nhttps://www.nbcnews.com/feature/nbc-out/adoption-agency-should-be-able-reject-gay-couples-trump-administration-n1224911\nhttps://www.usnews.com/news/best-countries/articles/2020-06-25/lgbtq-acceptance-growing-in-us-and-other-countries-over-time" />
+
+        <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

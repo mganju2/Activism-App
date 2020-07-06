@@ -67,8 +67,8 @@
             android:id="@+id/textView29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:text="      The lgbtq+ community has come a long way but there is still a lot of discrimination against them and they still have many rights to fight for. Gay marriage was only legalized in 2015 by the Obama administration. It is still ten times more difficult for a queer couple to adopt a child than a straight couple. This movement has definitely come a long way, however, they need all the ally’s they can get to be truly treated as equals. " />
+            android:text="      The lgbtq+ community has come a long way but there is still a lot of discrimination against them and they still have many rights to fight for. Gay marriage was only legalized in 2015 by the Obama administration. It is still ten times more difficult for a queer couple to adopt a child than a straight couple. However, there is a lot more representation in movies, tv shows and media in general. A lot more people in the community have also felt safer to come out and be proud of who they are. Many celebrities have come out publicly which has given the courage to others to come out and has also broken down stereotypes of what LGBTQ people should look like. This movement has definitely come a long way, however, they need all the ally’s they can get to be truly treated as equals. "
+            android:textColor="#000000" />
 
         <ImageView
             android:id="@+id/imageView15"
@@ -89,20 +89,6 @@
             android:layout_width="match_parent"
             android:layout_height="219dp"
             android:text="Bullet points or images for the timeline here" />
-
-        <TextView
-            android:id="@+id/More_Info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/history_section_4"
-            android:textSize="40sp"/>
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="131dp"
-            android:text="Put youtube vieos here " />
 
         <TextView
             android:id="@+id/Work_Cited"
