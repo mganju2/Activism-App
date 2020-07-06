@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_1"
             android:textSize="40sp" />
 
@@ -25,6 +27,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="115dp"
+            android:textColor="#000000"
             android:text="Explain what all there is to do and how it can make a difference and then below have the specific sections" />
 
         <TextView
@@ -32,14 +35,85 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_2"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="129dp"
-            android:text="So many organizations are tyring to make a change they jist need your help and support to keep doing the amazing things that they are doing and then we can list specific ones that we would reccomend donating too " />
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="There are so many organizations that are in need of your charitable donations. The organizations below do provide many useful resources to the LGBTQ+ community. Any amount will helpout greatly." />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="The Trevor Project is a non-profit that focuses on suicide prevention within the LGBTQ+ community - \nhttps://www.thetrevorproject.org/" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Point Foundation provides financial aid to members of the LGBTQ+ community struggling to pay for college - \nhttps://pointfoundation.org/" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="National Center for Transgender Equality is the leading advocacy group for transgender people. They provide many resources from legal help to family support. - https://transequality.org/" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="GLSEN is a national education organization targeted to make K-12 schools a safe environment for LGBTQ+ students - https://www.glsen.org/" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="It Gets Better is a non-profit organization dedicated to empowering LGBTQ+ youth around the world -\nhttps://itgetsbetter.org/" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -58,59 +132,55 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
             android:textColor="#000000"
-            android:text="Here are two websites full of many petitions to push forward change for the lgbtq+ community. It will only take a few clicks to help make a big difference in many people’s lives. Please help push forward the change!" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.thepetitionsite.com/lgbtq-rights/#hottest" />
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.change.org/t/lgbt-rights-3" />
+            android:text="Here are two websites full of many petitions to push forward change for the lgbtq+ community. It will only take a few clicks to help make a big difference in many people’s lives. Please help push forward the change!\nhttps://www.thepetitionsite.com/lgbtq-rights/#hottest\nhttps://www.change.org/t/lgbt-rights-3" />
 
         <TextView
             android:id="@+id/Protests"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_4"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView21"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="When it comes to the LGBTQ+ community protests are an important part of their history. The reason these individuals have gained so many rights is because they were not afraid to stand up to their oppressors and fight for what they deserved. The pride parade which we celebrate till date began as a riot and has now become a celebration but we must never forget its roots and where it all began. LGBTQ+ people are considered a minority and just like any other minority or race, gender, or class they need all the help they can get to help keep the change moving forward. We urge you to go to your local pride parades and protests to stand in solidarity with this community and display to them that you are truly an ally. Just saying your not homophobic or transphobic isn’t enough it is time to be active ally’s and support people that need your help." />
+
+        <ImageView
+            android:id="@+id/imageView33"
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
+            android:layout_height="307dp"
+            android:src="@drawable/pride1" />
 
         <TextView
             android:id="@+id/Voting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/resources_section_5"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="141dp"
-            android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#000000"
+            android:text="The power to vote is not something that should be taken lightly. It gives one more power than he or she realizes to help create real change. Voting for bills and local community leaders is a great way to support the LGBTQ+ community. Vote for officials who are supportive of the community and are willing to pass laws to create equal rights for them. Vote for bills that actively try to stop discrimnation in any way against these individuals. At a local level you need to do your own research and use the power you have by voting for bills in favor of the LGBTQ+ community.  Many states are actively passing bills against LGBTQ+ people and many don’t realize because they do not publicize it.  While the LGBTQ+ community is being more accepted socially they need to be treated equally under the law as well and it is time to help them out by simply using a power you have already been given by this country." />
     </LinearLayout>
 </ScrollView>
