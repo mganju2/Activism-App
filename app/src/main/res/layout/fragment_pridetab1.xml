@@ -31,14 +31,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000000"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:text="      On June 28th, 1969 police raided a local gay bar in New York City known as Stonewall Inn. Stonewall Inn provided the gay community a sanctuary where they could truly express themselves and now that place itself was under attack. When the police raided the bar that evening they were awfully brutal towards the individuals in the bars. Some accounts of the night say that cops were forcing drag queens into bathrooms so they could make them strip to see if they were actually men. This was one of many raids but it seemed like the gay community as a whole had reached a breaking point with the brutality of the police and the discrimination they faced in their everyday lives. People gathered around the bar and started to fight back and riot against the police that had mistreated them under numerous occasions. This event itself sparked the gay rights movement and pride is celebrated every year in the month of june since it is the anniversary month of the Stonewall riots. " />
 
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="wrap_content"
-            android:layout_height="210dp"
-            android:layout_weight="1"
-            android:src="@drawable/pride3" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="horizontal"/>
 
         <TextView
             android:id="@+id/Present_Day"
@@ -53,28 +55,23 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:text="      In today’s world pride has become a way to celebrate the lgbtq+ community and give them a chance to be loud and proud of who they are. The gay community has been expanded to include transgender, non-binary, asexual, and many other orientations that do not fit society’s heteronomative standards. Many cities and countries across the world take part in the pride celebrations by having parades in the month of June to commemorate those who fought for equal rights more than 50 years ago at Stonewall Inn. "
             android:textColor="#000000" />
-
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="match_parent"
-            android:layout_height="265dp"
-            android:layout_weight="1"
-            android:src="@drawable/pride2" />
 
         <TextView
             android:id="@+id/textView29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:text="      The lgbtq+ community has come a long way but there is still a lot of discrimination against them and they still have many rights to fight for. Gay marriage was only legalized in 2015 by the Obama administration. It is still ten times more difficult for a queer couple to adopt a child than a straight couple. However, there is a lot more representation in movies, tv shows and media in general. A lot more people in the community have also felt safer to come out and be proud of who they are. Many celebrities have come out publicly which has given the courage to others to come out and has also broken down stereotypes of what LGBTQ people should look like. This movement has definitely come a long way, however, they need all the ally’s they can get to be truly treated as equals. "
             android:textColor="#000000" />
-
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="match_parent"
-            android:layout_height="291dp"
-            android:src="@drawable/pride4" />
 
         <TextView
             android:id="@+id/Timeline"

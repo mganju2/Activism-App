@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,13 +21,87 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_1"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The Greenpeace Movement is one of the oldest protest organizations, running for over 40 years.  It started in 1971, where a couple activists left their homes in Alaska and were determined to spread awareness of nuclear testing. America was planning on continuing their plans of nuclear testing, which was going to harm many indegionous species in Alaska. Several Canadians, along with Alaskans, decided to start a “Don’t Make a Wave” Committee, where they protested this testing because nuclear testing could also cause tidal waves. "
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/global1" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/global2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="1985 was a big year for Greenpeace, as they set sail in a boat called the “Rainbow Warrior” after the French government allegedly sunk their original boat. Since then, they have assisted in many different activities, including assisting people who lost their homes in the tsunami of 2004. " />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/global3" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="165dp"
+                android:layout_height="143dp"
+                android:layout_weight="1"
+                android:src="@drawable/global4" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="Me Too origins" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="The Greenpeace movement is aimed to preserve the lives of endangered species, prevent environmental abuses, and increase environmental awareness of reducing pollution. Their main goal was to promote nonviolent protests to help bring awareness of the issues that come with burning fossil fuels. "
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Present_Day"
