@@ -169,11 +169,11 @@ In India, many women have struggled profusely with sexual harassment cases. The 
             android:text="@string/history_section_3"
             android:textSize="40sp" />
 
-        <TextView
-            android:id="@+id/textView11"
+        <ImageView
+            android:id="@+id/imageView37"
             android:layout_width="match_parent"
-            android:layout_height="219dp"
-            android:text="Bullet points or images for the timeline here" />
+            android:layout_height="559dp"
+            android:src="@drawable/metoo_timeline" />
 
         <TextView
             android:id="@+id/Work_Cited"
