@@ -95,6 +95,12 @@
             android:text="@string/history_section_3"
             android:textSize="40sp" />
 
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="match_parent"
+            android:layout_height="605dp"
+            android:src="@drawable/pride_timeline" />
+
         <TextView
             android:id="@+id/Work_Cited"
             android:layout_width="wrap_content"
