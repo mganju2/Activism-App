@@ -149,12 +149,25 @@
             android:text="https://www.change.org/p/march-for-our-lives-an-act-to-protect-save-your-children?signed=true\nhttps://sign.moveon.org/petitions/gun-control-now-1\nhttps://sign.moveon.org/petitions/gun-control-now-101" />
 
         <TextView
+            android:id="@+id/textView57"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="For many more petitions related to gun violence and control check out - https://www.change.org/t/gun-control"
+            android:textColor="#000000" />
+
+        <TextView
             android:id="@+id/Protests"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="#000000"
             android:text="@string/resources_section_4"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <TextView
@@ -184,17 +197,5 @@
             android:text="The most important way to construct change when it comes to the gun control movement is through public policies and bills. The gun control movement can be greatly affected by who is elected to office and what policies are put into effect by those in office. People need to start using the power they have been given by this country to see real advancements. Voting is a way for one to control what happens to themselves and the society he or she is a part of. To make America a safer place with less gun violence and mass murders individuals must vote for representatives in favor of these modifications. How many more people have to die before real transformation is finally implemented? The answer should be no more after today and by voting you can help make sure it becomes that way and remains that way for the very near future. "
             android:textColor="#000000" />
 
-        <TextView
-            android:id="@+id/textView57"
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="155dp"
-            android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="For many more petitions related to gun violence and control check out - https://www.change.org/t/gun-control"
-            android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>
