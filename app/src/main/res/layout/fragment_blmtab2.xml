@@ -43,6 +43,12 @@
             android:text="      It can be really overwhelming when it comes to trying to understand this movement. There is a lot of information to read about and so much to learn about that it can be confusing on how one can help make a difference. If you are here reading and looking for ways to help out you have already taken the first step of helping out. Being educated on this matter is highly important before you can go out and make change. Now that you have a decent understanding of what this movement is about there are a few other steps you can take that would really help make an impact on the world. "
             android:textColor="#000000" />
 
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/blm10" />
+
         <TextView
             android:id="@+id/textView63"
             android:layout_width="371dp"
@@ -52,23 +58,6 @@
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:text="      The 4 key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have the difficult conversations with the more close minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for too long. "
-            android:textColor="#000000" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/blm10" />
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="       Some extremely important ways to help out include signing petitions, donating, showing and supporting protests, and voting.  Donating is a crucial part of these movements because organizations gain traction from YOUR support, and you can help them continue to fund movements such as Black Lives Matter and help disassemble racist organizations. Aside from donating money, donating your time is equally as important and many organizations are looking for extra hands to help out. Signing petitions extremely important as well because it is a way to gather thousands of signatures and demand for a change, because it has been proven through several social media sites that signing petitions and connecting with people through technology will speak volumes. "
             android:textColor="#000000" />
 
         <TextView
@@ -137,8 +126,21 @@
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Minnesota Freedom Fund is a Nonprofit that pays bail for people that are arrested while protesting police brutality. Donate and show your support here: https://minnesotafreedomfund.org/ "
+            android:text="Minnesota Freedom Fund is a nonprofit that pays bail for people that are arrested while protesting police brutality - https://minnesotafreedomfund.org/"
             android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Campaign Zero is an organization that finds research based solutions to end police brutality - \nhttps://www.joincampaignzero.org/"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/Petitons"
