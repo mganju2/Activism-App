@@ -52,6 +52,7 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://www.youtube.com/watch?v=YG8GjlLbbvs" />
+
         <TextView
             android:id="@+id/textView28"
             android:layout_width="match_parent"
@@ -63,5 +64,28 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://www.youtube.com/watch?v=js6ERFDsQv4" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="There is a huge debate about whether people who are not black should be allowed to say that n-word or not. If you are not black and think it is fine to use the n-word or do not understand why it is so offensive please take a look at the link below. " />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.dailytarheel.com/article/2019/09/why-you-cant-say-the-n-word-if-youre-not-black" />
     </LinearLayout>
 </ScrollView>
