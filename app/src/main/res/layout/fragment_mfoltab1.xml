@@ -96,20 +96,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/history_section_2"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
-            android:layout_height="193dp"
-            android:text="Present Day info here" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="March for our lives is still a fairly new movement when it comes to the anti-gun world. Over the past few years their protesting has died down and they aren’t too big in the media. However, do not mistaken this as the end of the movement there is still a lot of work being done behind the scenes. Their most recent campaign is called Our Power in which they are promoting that people must take back their power and use it to make change. They have people take a pledge to be part of the movement and encourage them to register to vote and advocate for anti-gun violence policies. " />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:src="@drawable/mfol_present_day" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="They have created many chapters of March for our lives across the country that help local communities put an end to gun violence. Their main goal is still to spread their message and create change in all communities across America. " />
 
         <TextView
             android:id="@+id/Timeline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/history_section_3"
             android:textSize="40sp" />
 
@@ -124,6 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#000000"
             android:text="@string/history_section_5"
             android:textSize="40sp" />
 
