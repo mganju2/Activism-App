@@ -58,13 +58,13 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_height="111dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:textColor="#000000"
-            android:text="So many organizations are tyring to make a change they just need your help and support to keep doing the amazing work that they have been doing." />
+            android:text="Donating is a crucial part of this movement because there are already many organizations that do incredible work and you can help them continue doing all the amazing things they have done so far. Aside from donating money you can also donate your time to these organizations who are always looking for volunteers to help them out."
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView62"

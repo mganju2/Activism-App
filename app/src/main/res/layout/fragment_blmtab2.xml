@@ -93,12 +93,12 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="378dp"
-            android:layout_height="wrap_content"
+            android:layout_height="111dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="There are so many organizations that are in need of your charitable donations. These groups are working towards equal treatment of people of color. Any amount will help out profusely!"
+            android:text="Donating is a crucial part of this movement because there are already many organizations that do incredible work and you can help them continue doing all the amazing things they have done so far. Aside from donating money you can also donate your time to these organizations who are always looking for volunteers to help them out."
             android:textColor="#000000" />
 
         <TextView

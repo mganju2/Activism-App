@@ -58,12 +58,12 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="111dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Donating time or money to MeToo is allowing these organizations to gain the resources to allow survivors to share their stories without fear. Here are some nonprofits that are looking for helpers and donations."
+            android:text="Donating is a crucial part of this movement because there are already many organizations that do incredible work and you can help them continue doing all the amazing things they have done so far. Aside from donating money you can also donate your time to these organizations who are always looking for volunteers to help them out."
             android:textColor="#000000" />
 
 
