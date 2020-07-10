@@ -231,7 +231,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="       Protests have been extremely important in understanding the issues this country faces. In the past, many people did not support protests, as CNN states that in 2016, 18% of people fully supported protests, while 28% supported them partially. Now, both numbers have jumped to 38% and 29% respectively. By race, white people's support for BLM protests have gone from 40% to 61%, 33% to 78% by Hispanic people, and 65% to 86% for African Americans.  The people's voice matters, and if enough choose to speak up and demand a change, there will be one. Especially in the younger generation, there are much louder voices that are pressuring officials to take action. 4 out of 5 people under the age of thirty support BLM, and they are the ones leading these protests. "
+            android:text="      Protests have been extremely important in understanding the issues this country faces. In the past, many people did not support protests, as CNN states that in 2016, 18% of people fully supported protests, while 28% supported them partially. Now, both numbers have jumped to 38% and 29% respectively. By race, white people's support for BLM protests have gone from 40% to 61%, 33% to 78% by Hispanic people, and 65% to 86% for African Americans.  The people's voice matters, and if enough choose to speak up and demand a change, there will be one. Especially in the younger generation, there are much louder voices that are pressuring officials to take action. 4 out of 5 people under the age of thirty support BLM, and they are the ones leading these protests. "
             android:textColor="#000000" />
 
         <LinearLayout
@@ -245,7 +245,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:text="       On May 28, 2020, there were over 8 million tweets related to Black Lives Matter, which is a startling increase from the number of tweets in 2014, which was 146,000. As the new generation becomes more tech-savvy and technology dependent, news will start to spread like wildfire. There have been thousands of videos of proof that show African Americans being beaten and mistreated by police officers, which only fuels the protestors fire. Protests are working and are spreading messages globally, but people must be able to act in the bravery of these protestors and make decisions that will prevent African Americans from ever recieving unfair treatment again.  "
+                android:text="      On May 28, 2020, there were over 8 million tweets related to Black Lives Matter, which is a startling increase from the number of tweets in 2014, which was 146,000. As the new generation becomes more tech-savvy and technology dependent, news will start to spread like wildfire. There have been thousands of videos of proof that show African Americans being beaten and mistreated by police officers, which only fuels the protestors fire. Protests are working and are spreading messages globally, but people must be able to act in the bravery of these protestors and make decisions that will prevent African Americans from ever recieving unfair treatment again.  "
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -303,29 +303,25 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="       Voting is maybe the most important because it allows for real policy changes. Vote in your primaries to make sure you elect officials who are in support of bills and laws that support groups that need the protection of the law. Vote in the presidential election for a candidate that treats all human beings as equal and is not in an active effort to take certain groups of people’s rights away. Remember that YOU have a voice, so speak up and vote."
+            android:text="      This movement has two sides to it: social justice and political justice. It is important for society’s mindset to change when it comes to how they treat black people. However, it is equally as important to change the justice system that has failed black people time and time again. Vote for officials that want to address the problem head on and find ways to finally fix the very broken system we have been dealing with."
             android:textColor="#000000" />
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/imageView16"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="239dp"
+            android:src="@drawable/blm_voting" />
 
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="304dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/blm11" />
-
-            <ImageView
-                android:id="@+id/imageView18"
-                android:layout_width="240dp"
-                android:layout_height="192dp"
-                android:layout_weight="1"
-                android:src="@drawable/blm12" />
-
-        </LinearLayout>
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="      Voting is also a key way to help the black community because they are a victim of voter suppression. More than 40% of registered black voters are unable to vote because of the many obstacles they face. These can include being discouraged to vote as the minority in their community, not being able to get the day off work, no means of transportation to voting polls, etc. You have the power to help make the difference and create a safer world for black people and everyone else. So register now and vote in the 2020 primaries and elections and every year after that because the discrimination and hate must come to an end. "
+            android:textColor="#000000" />
 
     </LinearLayout>
 </ScrollView>

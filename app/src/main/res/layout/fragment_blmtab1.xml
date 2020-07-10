@@ -64,13 +64,13 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="371dp"
-            android:layout_height="149dp"
+            android:layout_height="158dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="       After African Americans fought in this World War, they started to demand for rights to vote, hold office, etc. This became a wakening call for police officers to be the “white protectors” of the nation.  Organizations such as White Citizens’ Council and Klu Klux Klan became very prominent and raised their voices to fight the rights of African Americans.  In Northern states, as African Americans became more prevalent in communities, it only led to police officers feeling more hesitant.  " />
+            android:text="       After African Americans fought in this World War, they started to demand for rights to vote, hold office, etc. This became a wakening call for police officers to be the “white protectors” of the nation.  Organizations such as White Citizens’ Council and Klu Klux Klan became very prominent and raised their voices to fight the rights of African Americans.  In Northern states, as African Americans became more prevalent in communities, it only led to police officers feeling more hesitant.  "
+            android:textColor="#000000" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -92,13 +92,13 @@
         <TextView
             android:id="@+id/textView7"
             android:layout_width="369dp"
-            android:layout_height="240dp"
+            android:layout_height="266dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:textColor="#000000"
-            android:text="       The Black Lives Matter movement started in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi. They wanted to create an organization to prevent the mistreatment of African Americans. It was in response to the acquittal of those responsible for Trayvon Martin’s murder. The Black Lives Matter movement is an ideological and political platform that highlights situations where African Americans are put to a disadvantage due to racism. For example, in 2014, African American Mike Brown was wrongfully murdered by a police officer. BLM organized a protest to support him, and they were tear gassed and pepper sprayed by the police. They were also heavily criticized on social media. Afterwards, the BLM movement started in 18 separate cities." />
+            android:text="       The Black Lives Matter movement started in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi. They wanted to create an organization to prevent the mistreatment of African Americans. It was in response to the acquittal of those responsible for Trayvon Martin’s murder. The Black Lives Matter movement is an ideological and political platform that highlights situations where African Americans are put to a disadvantage due to racism. For example, in 2014, African American Mike Brown was wrongfully murdered by a police officer. BLM organized a protest to support him, and they were tear gassed and pepper sprayed by the police. They were also heavily criticized on social media. Afterwards, the BLM movement started in 18 separate cities."
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Timeline"
@@ -152,13 +152,13 @@
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="match_parent"
-            android:layout_height="78dp"
+            android:layout_width="369dp"
+            android:layout_height="72dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
-            android:textColor="#000000"
-            android:layout_marginRight="155dp"/>
+            android:layout_marginRight="155dp"
+            android:textColor="#000000" />
 
 
     </LinearLayout>
