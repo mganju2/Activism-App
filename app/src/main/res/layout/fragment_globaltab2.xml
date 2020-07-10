@@ -65,18 +65,85 @@
             android:textColor="#000000"/>
 
         <TextView
+            android:id="@+id/textView74"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.greenpeace.org/international/act/volunteer/" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="371dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://engage.us.greenpeace.org/onlineactions/Qwf5Xj_ZxEejPr_BIHiYvQ2?&;utm_source=website&utm_medium=homepage&utm_campaign=website_donation_form_(header)&_ga=2.140894834.1942478446.1594342279-1540900807.1592162536" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.greenpeace.org/usa/actions/" />
+
+        <TextView
             android:id="@+id/Petitons"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_3"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:text="List links to websites that post them and then list a few very important ones. and also maybe say  alittle message about the importance of petitions and using your rgith to have a voice in a democracy or some bullshit" />
+            android:layout_height="102dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Here are some websites to sign petitions and show your support for the Greenpeace movement. They are working towards saving endangered species and help regulate the climate and reverse human damage. If you can, take a few moments to sign these petitions and show your support for this movement."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Here is a website that provides many different links to sign petitions for specific Greenpeace movements you can look into and support: https://www.greenpeace.org/usa/take-action/"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.fairplanet.org/support/greenpeace-petition-%E2%80%98no-more-climate-wrecking-oil-ads%E2%80%99/" />
 
         <TextView
             android:id="@+id/Protests"
@@ -84,13 +151,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_4"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:text="since we cant name all protests happening in each place we should just talk about how they are important and we should show support by showing up to them and then maybe we can have a way for users to specifically inform people in their areas about protests " />
+            android:layout_height="222dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Greenpeace has been donating their time and money to help out countries in need during COVID-19, such as Brazil. They are strong believers that this virus can lead to many more deaths and could harm people if action isn't taken. They are fighting for less ignorance, for more action taken to prevent more deaths. In the midst of a pandemic, they are still looking for ways to help reverse the effects of climate change, prevent deforestation, and protect endangered species from going extinct. It all starts with the government, and their willigness to help. In order for the government to hear, they need your support and your voice, so visit their page and find ways to take action. https://www.greenpeace.org/international/"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Voting"

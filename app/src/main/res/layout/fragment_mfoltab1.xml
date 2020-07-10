@@ -34,7 +34,7 @@
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text='March For Our Lives started as a student led protest that supportes anti-gun laws, their goal is to prevent gun violence. The shooting that triggered this movement happened at the Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event occured, students at the high school organized a "Never Again" campaign. At the forefront of the campaign was Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement overall gained a lot of support from many celebrities who donated a lot of money and came out in person to support the marches all around the country. Soon enough, March For Our Lives became the biggest student led protest since the Vietnam War era. '
+            android:text='       March For Our Lives started as a student led protest that supportes anti-gun laws, their goal is to prevent gun violence. The shooting that triggered this movement happened at the Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event occured, students at the high school organized a "Never Again" campaign. At the forefront of the campaign was Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement overall gained a lot of support from many celebrities who donated a lot of money and came out in person to support the marches all around the country. Soon enough, March For Our Lives became the biggest student led protest since the Vietnam War era. '
             android:textColor="#000000" />
 
         <LinearLayout
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="The NRA was against these marches and even released a statement saying the upper class was manipulating children to get rid of the Second Amendment. In terms of support from political parties, many democrats supported the movement and many even showed up to the sidelines of the marches. Many republicans on the other hand were not in support of the marches, and believed they were trying to take away their Second Amendment rights. "
+                android:text="     The NRA was against these marches and even released a statement saying the upper class was manipulating children to get rid of the Second Amendment. In terms of support from political parties, many democrats supported the movement and many even showed up to the sidelines of the marches. Many republicans on the other hand were not in support of the marches, and believed they were trying to take away their Second Amendment rights. "
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -109,7 +109,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="March for our lives is still a fairly new movement when it comes to the anti-gun world. Over the past few years their protesting has died down and they aren’t too big in the media. However, do not mistaken this as the end of the movement there is still a lot of work being done behind the scenes. Their most recent campaign is called Our Power in which they are promoting that people must take back their power and use it to make change. They have people take a pledge to be part of the movement and encourage them to register to vote and advocate for anti-gun violence policies. " />
+            android:text="       March for our lives is still a fairly new movement when it comes to the anti-gun world. Over the past few years their protesting has died down and they aren’t too big in the media. However, do not mistaken this as the end of the movement there is still a lot of work being done behind the scenes. Their most recent campaign is called Our Power in which they are promoting that people must take back their power and use it to make change. They have people take a pledge to be part of the movement and encourage them to register to vote and advocate for anti-gun violence policies. " />
 
         <ImageView
             android:id="@+id/imageView41"
@@ -137,11 +137,24 @@
             android:text="@string/history_section_3"
             android:textSize="40sp" />
 
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="match_parent"
+            android:layout_height="558dp"
+            android:src="@drawable/timelinemfol" />
+
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="219dp"
-            android:text="Bullet points or images for the timeline here" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Timeline: https://www.usatoday.com/pages/interactives/news/gun-control-mass-killings-timeline/"/>
 
         <TextView
             android:id="@+id/Work_Cited"
