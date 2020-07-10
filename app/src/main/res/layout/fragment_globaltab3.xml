@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,10 +22,16 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:src="@drawable/gpinfo" />
+
         <TextView
             android:id="@+id/textView72"
             android:layout_width="match_parent"
-            android:layout_height="29dp"
+            android:layout_height="47dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -33,10 +40,16 @@
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/" />
 
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="match_parent"
+            android:layout_height="494dp"
+            android:src="@drawable/gpinfo2" />
+
         <TextView
             android:id="@+id/textView73"
             android:layout_width="match_parent"
-            android:layout_height="29dp"
+            android:layout_height="79dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -45,29 +58,41 @@
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/campaigns/oceans/" />
 
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:src="@drawable/gpinfo3" />
+
         <TextView
             android:id="@+id/textView74"
             android:layout_width="match_parent"
-            android:layout_height="46dp"
+            android:layout_height="76dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/" />
+            android:text="https://www.greenpeace.org/usa/global-warming/extreme-weather/" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="match_parent"
+            android:layout_height="441dp"
+            android:src="@drawable/gpinfo4" />
 
         <TextView
             android:id="@+id/textView75"
             android:layout_width="match_parent"
-            android:layout_height="53dp"
+            android:layout_height="87dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://www.nationalgeographic.com/environment/global-warming/global-warming-real/" />
+            android:text="https://www.greenpeace.org/international/story/20165/5-young-activists-who-inspired-us-this-year/" />
     </LinearLayout>
 
 </ScrollView>
