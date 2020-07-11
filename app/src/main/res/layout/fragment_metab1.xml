@@ -61,7 +61,7 @@
         <TextView
             android:id="@+id/textView34"
             android:layout_width="match_parent"
-            android:layout_height="155dp"
+            android:layout_height="183dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -111,13 +111,13 @@
 
         <LinearLayout
             android:layout_width="397dp"
-            android:layout_height="235dp"
+            android:layout_height="252dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="197dp"
-                android:layout_height="235dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:text="People started changing their views about the purity of people in power. It started with an accusation of Supreme Court member Brett Kavanaugh sexually harassing Christine Ford. It really opened the eyes of the power that men have in the government over women. Several hearings later, 50 percent of voters supported the fact that men have noticeably more power in the government. "

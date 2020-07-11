@@ -28,7 +28,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="Here, we have attached links to several videos and articles you can read to educate yourself further on Black Lives Matter. Hopefully, with the limited information we gave you, you were able to understand the gravity of helping African Americans feel comfortable in the streets and especially around police officers." />
+            android:text="Here, we have attached links to several videos and articles you can read to educate yourself further on Black Lives Matter. Hopefully, with the limited information we gave you, you were able to understand the gravity of helping African Americans feel comfortable in this country and especially around police officers." />
 
         <TextView
             android:id="@+id/textView26"

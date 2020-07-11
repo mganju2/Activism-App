@@ -27,13 +27,13 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_width="375dp"
-            android:layout_height="204dp"
+            android:layout_height="215dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="        After World War II, White Americans became increasingly overwhelmed with the influx of African Americans entering their communities, which triggered their deeply ingrained racist opinions about them. Holding the beliefs of many racist white people in America at the time, they believed that African Americans, especially men, were inherently criminals that needed to be stopped. This led to punishments towards black people including physical assault, beatings, verbal abuse, sexual harassment towards black women, and threats. The general white public did not become aware of this issue until the mid 1960’s.  " />
+            android:text="        After World War II, White Americans became increasingly overwhelmed with the influx of African Americans entering their communities, which triggered their deeply ingrained racist opinions about them. Holding the beliefs of many racist white people in America at the time, they believed that African Americans, especially men, were inherently criminals that needed to be stopped. This led to punishments towards black people including physical assault, beatings, verbal abuse, sexual harassment towards black women, and threats. The general white public did not become aware of this issue until the mid 1960’s.  "
+            android:textColor="#000000" />
 
 
         <LinearLayout
@@ -64,13 +64,13 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="371dp"
-            android:layout_height="149dp"
+            android:layout_height="161dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="       After African Americans fought in this World War, they started to demand for rights to vote, hold office, etc. This became a wakening call for police officers to be the “white protectors” of the nation.  Organizations such as White Citizens’ Council and Klu Klux Klan became very prominent and raised their voices to fight the rights of African Americans.  In Northern states, as African Americans became more prevalent in communities, it only led to police officers feeling more hesitant.  " />
+            android:text="       After African Americans fought in this World War, they started to demand for rights to vote, hold office, etc. This became a wakening call for police officers to be the “white protectors” of the nation.  Organizations such as White Citizens’ Council and Klu Klux Klan became very prominent and raised their voices to fight the rights of African Americans.  In Northern states, as African Americans became more prevalent in communities, it only led to police officers feeling more hesitant.  "
+            android:textColor="#000000" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -140,7 +140,7 @@
         <TextView
             android:id="@+id/textView76"
             android:layout_width="369dp"
-            android:layout_height="291dp"
+            android:layout_height="318dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
