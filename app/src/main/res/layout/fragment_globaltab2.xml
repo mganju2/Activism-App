@@ -87,7 +87,7 @@
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://engage.us.greenpeace.org/onlineactions/Qwf5Xj_ZxEejPr_BIHiYvQ2?&;utm_source=website&utm_medium=homepage&utm_campaign=website_donation_form_(header)&_ga=2.140894834.1942478446.1594342279-1540900807.1592162536" />
+            android:text="https://engage.us.greenpeace.org/onlineactions/Qwf5Xj_ZxEejPr_BIHiYvQ2?&amp;;utm_source=website&amp;utm_medium=homepage&amp;utm_campaign=website_donation_form_(header)&amp;_ga=2.140894834.1942478446.1594342279-1540900807.1592162536" />
 
         <TextView
             android:id="@+id/textView68"
