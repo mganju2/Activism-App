@@ -170,7 +170,7 @@
                 android:layout_marginRight="16dp"
                 android:autoLink="web"
                 android:linksClickable="true"
-                android:text="Greenpeace has been donating their time and money to help out countries in need during COVID-19, such as Brazil. They are strong believers that this virus can lead to many more deaths and could harm people if action isn't taken. They are fighting for less ignorance, for more action taken to prevent more deaths. In the midst of a pandemic, they are still looking for ways to help reverse the effects of climate change, prevent deforestation, and protect endangered species from going extinct. It all starts with the government, and their willigness to help. In order for the government to hear, they need your support and your voice, so visit their page and find ways to take action. https://www.greenpeace.org/international/"
+                android:text="      Greenpeace has been donating their time and money to help out countries in need during COVID-19, such as Brazil. They are strong believers that this virus can lead to many more deaths and could harm people if action isn't taken. They are fighting for less ignorance, for more action taken to prevent more deaths. In the midst of a pandemic, they are still looking for ways to help reverse the effects of climate change, prevent deforestation, and protect endangered species from going extinct. It all starts with the government, and their willingness to help. In order for the government to hear, they need your support and your voice, so visit their page and find ways to take action. https://www.greenpeace.org/international/"
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -198,12 +198,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/resources_section_5"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="141dp"
-            android:text="In this section we can maybe be more specific about what bills to vote for at a national level and tell people to email local representatives anf stuff and tell them to look into this stuff on their own " />
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="      The most powerful voice is from the people. The strongest protection of this planet is from the people. Reading more about the science behind global warming, climate change, ocean conservation, and all the movements Greenpeace is working to support will shed light on how much Americans do not prioritize the health of this world. It is important to support these movements, and the best way to do it is to vote for officials that put the environment as a high priority. Without a clean earth, there is nothing to leave for our children and grandchildren other than a mess of extra problems. Not just for the health of future generations, it’s important to care for the health of helpless creatures and prevent their extinction. By supporting officials that care about environmental preservation, you are taking a step to help the world. "
+            android:textColor="#000000"/>
     </LinearLayout>
 </ScrollView>
