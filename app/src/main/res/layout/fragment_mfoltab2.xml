@@ -186,40 +186,15 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="225dp"
-                android:layout_height="280dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:text="       More than 800 protests were planned in every state on every continent except Antarctica. These protests were typically led by student leaders that demanded a change. They held a national school walkout and gun control legislation in Florida. Their movement caused wide recognition to gun control issues and led the majority of Americans to agree with increased background testing when buying a firearm. But, there were also protests against anti-gun laws in several states, which caused some controversy around the nation. "
-                android:textColor="#000000" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView54"
-                    android:layout_width="match_parent"
-                    android:layout_height="142dp"
-                    android:src="@drawable/mfoll" />
-
-                <ImageView
-                    android:id="@+id/imageView55"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/mofll2" />
-            </LinearLayout>
-        </LinearLayout>
+        <TextView
+            android:layout_width="371dp"
+            android:layout_height="320dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="      March For Our Lives created the biggest change and gained the most support through protests. This movement was student-led and created a huge impact on the gun control world. If high schoolers can create an entire movement that over a million people came out to support, imagine what they could do with your help. When the first march happened on March 24, 2018, more than 800 protests were planned in every state on every continent except Antarctica. Therefore, no global citizen can use the excuse that there was a lack of local protests that you could have not have participated in. Innocent children are dying across the country and no one is doing anything about it. The government has not made one change to the Second Amendment that was created in 1791. Thousands of people die and the government has done nothing, so do not just sit on your couch and read this and forget about it, because one day, that could be you, or your child, or any loved one. Demand change and show up to support the end of gun violence in this country. "
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Voting"
@@ -233,12 +208,12 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_height="253dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="       The most important way to construct change when it comes to the gun control movement is through public policies and bills. The gun control movement can be greatly affected by who is elected to office and what policies are put into effect by those in office. People need to start using the power they have been given by this country to see real advancements. Voting is a way for one to control what happens to themselves and the society he or she is a part of. To make America a safer place with less gun violence and mass murders individuals must vote for representatives in favor of these modifications. How many more people have to die before real transformation is finally implemented? The answer should be no more after today and by voting you can help make sure it becomes that way and remains that way for the very near future. "
+            android:text="      The most important way to construct change when it comes to the gun control movement is through public policies and bills. The gun control movement can be greatly affected by who is elected to office and what policies are put into effect by those in office. People need to start using the power they have been given by this country to see real advancements. Voting is a way for one to control what happens to themselves and the society he or she is a part of. To make America a safer place with less gun violence and mass murders, individuals must vote for representatives in favor of these modifications. How many more people have to die before a real transformation is finally implemented? The answer is no more after today and by voting, you can help make sure it becomes that way and remains that way for the very near future. "
             android:textColor="#000000" />
 
     </LinearLayout>
