@@ -182,8 +182,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="When someone experiences a traumatic event like sexual assault it is very difficult for that person to ever fully recover and gain the courage to stand up for themselves. The Me Too movement exemplified how society instils a fear in survivors that keeps them from sharing their stories. We must stand in solidarity with these victims to provide them the strength to rise up and face their perpetrators. When there is a protest or march or rally people must show up and prove to the oppressors that think they got away with their horrendous actions that there are consequences for horrible, disgusting behavior that ruins someone else’s life. It is time for change and it is time to put an end to the suffering of many women across the world. If change is created now then future generations of women and girls will not have to live in fear of being sexually assaulted in their lifetime. " />
+            android:text="      When someone experiences a traumatic event like sexual assault it is very difficult for that person to ever fully recover and gain the courage to stand up for themselves. The Me Too movement exemplified how society instils a fear in survivors that keeps them from sharing their stories. We must stand in solidarity with these victims to provide them the strength to rise up and face their perpetrators. When there is a protest or march or rally, people must show up and prove to the oppressors that think they got away with their horrendous actions and to convince them that there will be consequences for such horrible and disgusting behavior that ruins victims' lives. It is time for change and it is time to put an end to the suffering of many women across the world. If change is created now then future generations of women will not have to live in fear of being sexually assaulted throughout their lifetime."
+            android:textColor="#000000" />
 
         <ImageView
             android:id="@+id/imageView40"
@@ -203,12 +203,12 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="344dp"
+            android:layout_height="374dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="99.5% of rapists get away with their crime. Our justice system is continually failing victims of sexual assault everyday. Many people shy away from reporting their abuse because of statistics like the ones above. They do not believe or trust that justice will be served even if they report their harasser. This is the biggest reason why people must vote officials and others into power that they trust will make a change happen. Letting 99% of people that commit a crime walk free should be a crime in itself. So many women have to face their abuser everyday and for the rest of their lives because justice was not served. Please pressure your local officials to take this issue more seriously and only vote for the ones that truly believe in changing things. Vote for a President that does not have sexual harassment or assualt cases against him. Make sure the policy at your workplace is safe and does not protect the abuser more than it helps the victim. Use your power to help the many people that feel powerless after the traumatic experience they have been through. "
+            android:text="      99.5% of rapists get away with their crime. 99.5% of sexual assault victims never got the justice they deserved. 99.5% of guilty criminals walk free to this day. 99.5% of survivors live in fear of seeing their perpetrator. Our justice system is continually failing victims of sexual assault everyday. Many people shy away from reporting their abuse because of statistics like the ones above. They do not believe or trust that justice will be served even if they report their harasser. This is the biggest reason why people must vote officials into power that they trust will make a change happen. Letting 99% of people that commit a crime walk free should be a crime in itself. So many women have to face their abuser everyday and for the rest of their lives simply because justice was not served. Please pressure your local officials to take this issue more seriously and only vote for those that truly believe in changing things. Vote for a President that does not have sexual harassment or assualt cases against him. Make sure the policy at your workplace is safe and does not protect the abuser more than it helps the victim. Use your power to help the many people that feel powerless after the traumatic experience they have been through. "
             android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>

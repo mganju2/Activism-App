@@ -35,7 +35,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:text="      The Me Too movement started in 2006 by Tarana Burke to help spread awareness and help victims of sexual harassment, focusing on women and women of color. Their goal was to put several survivors on the frontlines and have them drive the solutions that would help decrease the cases of sexual harassment and bring global awareness to these issues. "
+                android:text="      In 2006, Tarana Burke began the Me Too movement to help spread awareness of sexual harassment and to bring attention to victims of these terrible acts, specifically focusing on women and women of color. The movement’s goal is to put several survivors in front of the media, courts, and to have them lead protests in order to forge the solutions that would help decrease the cases of sexual harassment and bring global awareness to these issues."
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -61,12 +61,12 @@
         <TextView
             android:id="@+id/textView34"
             android:layout_width="match_parent"
-            android:layout_height="183dp"
+            android:layout_height="171dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="       Actresses like Alyssa Milano began to expand the movement once it started, believing that they wanted people to understand the magnitude of women getting sexually harassed. As the Me Too movement gained more attention, it led several states to prohibit the use of nondisclosure agreements in sexual harassment cases. With more recognition, a group of women in Hollywood started a charity and have raised over 24 million dollars since 2018, this has led over 3,900 women to get legal support for their cases."
+            android:text="      Actresses like Alyssa Milano began to expand the movement once it started, communicating that they wanted people to understand the magnitude and prevalence of sexual harassment victims. As the Me Too movement gained more attention, it led several states to prohibit the use of confidentiality agreements in sexual harassment cases. With more recognition, a group of women in Hollywood started a charity and have raised over 24 million dollars since 2018-- this has led to over 3,900 women getting legal support for their cases."
             android:textColor="#000000" />
 
         <LinearLayout
@@ -101,58 +101,23 @@
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
-            android:layout_height="119dp"
+            android:layout_height="250dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="At one point, majority of the sexual harassment cases have occurred at a young age, 54% of people’s average ages are between 18-34. 90% of rape cases are female, and 82% of general sexual harassment cases are women as well. Women of color are three times more likely to be sexually harassed in their workspace compared to their white colleagues. "
+            android:text="      The movement began to change the world after eighty women accused Harvey Weinstein of sexual harassment. Afterwards, an accusation of Supreme Court member Brett Kavanaugh sexually harassing Stanford professor Christine Ford led women to speak out about their experiences. Because of this, people began changing their views about the purity of people in power. Weinstein is one of many men in power who was fired due to sexual harassment allegations, and consequently, many women have felt more empowered to share their stories due to the punishment that these men receive. Globally, 90% of rape victims are female, and 82% of general sexual harassment victims are women as well, and after the movement sparked in the United States, the world began to realize that Americans are not the only people who have mistreated women."
             android:textColor="#000000" />
-
-        <LinearLayout
-            android:layout_width="397dp"
-            android:layout_height="252dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="197dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:text="People started changing their views about the purity of people in power. It started with an accusation of Supreme Court member Brett Kavanaugh sexually harassing Christine Ford. It really opened the eyes of the power that men have in the government over women. Several hearings later, 50 percent of voters supported the fact that men have noticeably more power in the government. "
-                android:textColor="#000000" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView28"
-                    android:layout_width="match_parent"
-                    android:layout_height="102dp"
-                    android:src="@drawable/metoo5" />
-
-                <ImageView
-                    android:id="@+id/imageView27"
-                    android:layout_width="171dp"
-                    android:layout_height="138dp"
-                    android:src="@drawable/metoo6" />
-            </LinearLayout>
-
-        </LinearLayout>
 
         <TextView
             android:id="@+id/textView35"
             android:layout_width="match_parent"
-            android:layout_height="466dp"
+            android:layout_height="403dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="MeToo has become prevalent in many other countries around the world, especially places that are known for their mistreatment of women. Countries such as France, Nigeria, Australia, India, and many more have had thousands of women who have spoken out about their experiences of sexual harassment. In France, Roman Polanski, who has raped many underage girls, sparked a movement within the country. Although their cries for help were muted, the younger generation in France is much stronger and refuses to silence the stories of women being sexually assaulted and catcalled, which was common in the streets of France. In Australia, because they are not protected by freedom of speech, women have had a harder time speaking out about their sexual harassment situations. They are faced with tremendous roadblocks, where the survivors themselves are at risk for getting arrested for speaking out about their struggles. But, a case with Geoffrey Rush gained momentum and allowed Australians to get rid of some old restriction laws. In Nigeria, they started a hashtag #Sex4Grades, where they were forced to have sexual relations with a professor or lecturer for a better grade. Thousands of women have joined together to fight these men and hopefully bring an end to the assault.
-In India, many women have struggled profusely with sexual harassment cases. The MeToo movement has been one of the biggest revolutions in Indian history, women that came out with their stories where their boyfriend, trusted friends, and sometimes family members have forced themselves on them. "
+            android:text="      MeToo has become prevalent in many other countries around the world, especially places that have had many cases where women have been mistreated. Countries such as France, Nigeria, Australia, India, and many more have started to speak out about their experiences of sexual harassment. In France, Roman Polanski, who has raped many underage girls, sparked a movement within the country. This caused the younger generation in France to be much stronger and they refused to silence the stories of women being sexually assaulted and catcalled, which was common in the streets of France. In Australia, because they are not protected by freedom of speech, women have had a harder time speaking out about their sexual harassment situations. But, a case with Geoffrey Rush gained momentum and allowed Australians to get rid of some old restriction laws. In Nigeria, women started a hashtag #Sex4Grades, where they were forced to have sexual relations with a professor or lecturer for a better grade. Thousands of women have joined together to fight these men and hopefully bring an end to the assault. With the built up anger of thousands of cases that were not filed or fought against, the MeToo movement has been one of the biggest revolutions in Indian history, with thousands of women sharing their traumatic experiences."
             android:textColor="#000000" />
 
         <ImageView
