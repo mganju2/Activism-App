@@ -21,7 +21,7 @@ public class GlobalWarming extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Global Warming");
+        getSupportActionBar().setTitle("Green Peace");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         tabLayout = findViewById(R.id.TabLayout5);
