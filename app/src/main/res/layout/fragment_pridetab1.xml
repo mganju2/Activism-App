@@ -34,7 +34,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      On June 28th, 1969 police raided a local gay bar in New York City known as Stonewall Inn. Stonewall Inn provided the gay community a sanctuary where they could truly express themselves and now, that place itself was under attack. When the police raided the bar that evening, they were awfully brutal towards the occupants. Some accounts of the night state that cops were forcing drag queens into bathrooms for strip-searches in order to determine if they were actually men. This was one of many raids, but it seemed like the gay community as a whole had reached a breaking point with the brutality of the police and the discrimination they faced in their everyday lives. People gathered around the bar and started to fight back and riot against the police that had mistreated them under numerous occasions. This event itself sparked the gay rights movement and Pride is celebrated every year in the month of June, as it is the anniversary month of the Stonewall riots.  "
+            android:text="      On June 28th, 1969, police raided a local gay bar in New York City known as Stonewall Inn. Stonewall Inn provided the gay community a sanctuary where they could truly express themselves and now, that place itself was under attack. When the police raided the bar that evening, they were awfully brutal towards the occupants. Some accounts of the night state that the cops were forcing drag queens into bathrooms for strip-searches in order to determine if they were actually men. This was one of many raids, but it seemed like the gay community as a whole had reached a breaking point with the brutality of the police and the discrimination they faced in their everyday lives. People gathered around the bar and started to fight back and riot against the police that had mistreated them under numerous occasions. This event sparked the gay rights movement and Pride is celebrated every year in the month of June, as it is the anniversary month of the Stonewall riots. "
             android:textColor="#000000" />
 
         <ImageView
@@ -60,24 +60,18 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      In today’s world, Pride has become a way to celebrate the LGBTQIA+ community and give them a chance to be loud and proud of who they are. The community has been expanded to include transgender, non-binary, asexual, and many other orientations that do not fit society’s heteronomative standards. Many cities and countries across the world take part in the pride celebrations by having parades in the month of June to commemorate those who fought for equal rights more than fifty years ago at Stonewall Inn. "
+            android:text="      In today’s world, Pride has become a way to celebrate the LGBTQIA+ community and give them a chance to be loud and proud of who they are. The community has been expanded to include transgender, non-binary, asexual, and many other orientations that do not fit society’s heteronomative standards. Many cities and countries across the world take part in the Pride celebrations by having parades in the month of June to commemorate those who fought for equal rights more than fifty years ago at Stonewall Inn. "
             android:textColor="#000000" />
-
-        <ImageView
-            android:id="@+id/imageView35"
-            android:layout_width="match_parent"
-            android:layout_height="279dp"
-            android:src="@drawable/pride2" />
 
         <TextView
             android:id="@+id/textView29"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="284dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      Since the Stonewall Riots, the LGBTQIA+ community has come a long way. Gay marriage was recently legalized in 2015 under the Obama administration and queer representation in modern media has skyrocketed. Similarly, many celebrities have publicly come out and their courage has inspired thousands of fans around the world to do the same. By coming out on the global stage, many celebrities have defied the concept of heteronormativity and have broken down the common stereotypes of what LGBTQIA+ people look like. Though the community has come a long way, discrimination still exists and many rights must still be fought for. For example, it is still ten times more difficult for queer couples to adopt children than straight couples. And, 331 transgender people were killed in just 2019. This movement has definitely come a long way, however, they need all the ally’s they can get to be truly treated as equals. "
+            android:text="      Since the Stonewall Riots, the LGBTQIA+ community has come a long way. Gay marriage was recently legalized in 2015 under the Obama administration and queer representation in modern media has skyrocketed. Similarly, many celebrities have publicly come out and their courage has inspired thousands of fans around the world to do the same. By coming out on the global stage, many celebrities have defied the concept of heteronormativity and have broken down the common stereotypes of what LGBTQIA+ people must look like. Though the community has come a long way, discrimination still exists and many rights must still be fought for. For example, it is still ten times more difficult for queer couples to adopt children than straight couples. And, 331 transgender people were killed in just 2019. This movement has definitely come a long way, however, they need all the allies they can get to be truly treated as equals."
             android:textColor="#000000" />
 
         <ImageView
