@@ -33,7 +33,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      It can be really overwhelming when it comes to trying to understand this movement. There is a lot of information to read about and so much to learn about that it can be confusing on how one can help make a difference. If you are here reading and looking for ways to help out you have already taken the first step of helping out. Being educated on this matter is highly important before you can go out and make change. Now that you have a decent understanding of what this movement is about there are a few other steps you can take that would really help make an impact on the world. "
+            android:text="      Attempting to wholly understand this movement can truly be overwhelming. There is so much to learn and so much information readily available that it can often be confusing to know how to actually make a difference. If you are here reading and looking for ways to help out, you have already taken the first step of helping out. Being educated on this matter is highly important before you can go out and make change. Now that you have a decent understanding of what this movement is about, there are a few other steps you can take that would really help make an impact on the world. "
             android:textColor="#000000" />
 
         <TextView
@@ -44,7 +44,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      The 4 key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have the difficult conversations with the more close minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for too long. "
+            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things, it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
             android:textColor="#000000" />
 
         <TextView
@@ -58,14 +58,14 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="371dp"
-            android:layout_height="111dp"
+            android:layout_width="378dp"
+            android:layout_height="116dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="Donating is a crucial part of this movement because there are already many organizations that do incredible work and you can help them continue doing all the amazing things they have done so far. Aside from donating money you can also donate your time to these organizations who are always looking for volunteers to help them out."
-            android:textColor="#000000" />
+            android:text="      Donating is a crucial part of every movement. Notable organizations already fully commit to this cause and do incredible work and even the smallest donation can help advance significant changes in our society. Aside from donating money, you can also donate your time to these organizations who are always looking for volunteers to help out."
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView62"
