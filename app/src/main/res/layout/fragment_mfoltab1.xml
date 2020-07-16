@@ -141,7 +141,7 @@
             android:id="@+id/imageView44"
             android:layout_width="match_parent"
             android:layout_height="558dp"
-            android:src="@drawable/timelinemfol" />
+            android:src="@drawable/mfoltimeline" />
 
         <TextView
             android:id="@+id/textView11"

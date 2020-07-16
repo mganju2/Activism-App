@@ -141,8 +141,8 @@
         <ImageView
             android:id="@+id/imageView43"
             android:layout_width="match_parent"
-            android:layout_height="692dp"
-            android:src="@drawable/timelineglobal" />
+            android:layout_height="504dp"
+            android:src="@drawable/greenpeacetimeline" />
 
         <TextView
             android:id="@+id/Work_Cited"
