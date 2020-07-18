@@ -47,17 +47,15 @@
 
                 <ImageView
                     android:id="@+id/imageView13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/global1" />
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:src="@drawable/gbb4" />
 
                 <ImageView
                     android:id="@+id/imageView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/global2" />
+                    android:src="@drawable/gbb6" />
             </LinearLayout>
 
         </LinearLayout>
@@ -72,6 +70,12 @@
             android:layout_marginRight="16dp"
             android:text="      1985 was a big year for Greenpeace, as they set sail in a boat called the “Rainbow Warrior” after the French government allegedly sunk their original boat because they were fighting against nuclear testing in the Pacific. Rainbow Warrior was essential in sending a message to the world that environmental activists will go to extremes to stop issues that could cause harm to the ecosystem and it inspired other organizations to take stands against environmental issues that they do not support. Since then, they have assisted in many different activities, including assisting people who lost their homes in the tsunami of 2004."
             android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:src="@drawable/gbb3" />
 
         <TextView
             android:id="@+id/Present_Day"
@@ -93,12 +97,6 @@
             android:text="      The Greenpeace movement is aimed to preserve the lives of endangered species, prevent environmental abuses, and increase environmental awareness of reducing pollution. Their main goal is to promote nonviolent protests to help bring awareness to the issues that come with burning fossil fuels. There is currently an international corporation with over fifty locations in several countries."
             android:textColor="#000000" />
 
-        <ImageView
-            android:id="@+id/imageView42"
-            android:layout_width="match_parent"
-            android:layout_height="236dp"
-            android:src="@drawable/global5" />
-
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
@@ -109,6 +107,12 @@
             android:layout_marginRight="16dp"
             android:text="      Because technology is becoming more advanced and people are becoming more reliant upon it, the amount of fossil fuels and harmful chemicals that are being burned and released into the atmosphere has reached an all time high. The country is divided into two groups, those who believe climate change is real as proven through scientific evidence, and those who believe it is not. There are several campaigns running right now including the Save the Arctic, Protecting Forests, Fighting Global Warming, Protecting Our Oceans, and much more. These campaigns are fighting daily to find more supporters that believe our world is worth saving. America is one country that is doing the least in terms of supporting the environment, as we seem to be moving backwards on environmental policies while other countries are surging forward. For example, global warming has been a prevalent issue that many citizens and politicians turn away from. While there is scientific evidence that the world is getting warmer, many Americans do not believe that it exists. Fighting to build clean energy sources and end environmental destruction caused by global warming is one of the many things that Greenpeace is looking to end. "
             android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gbb7" />
 
         <TextView
             android:id="@+id/Timeline"

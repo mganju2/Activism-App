@@ -50,15 +50,15 @@
 
                 <ImageView
                     android:id="@+id/imageView25"
-                    android:layout_width="match_parent"
-                    android:layout_height="128dp"
-                    android:src="@drawable/mfol3" />
+                    android:layout_width="183dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/mfo4" />
 
                 <ImageView
                     android:id="@+id/imageView26"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/mfol4" />
+                    android:layout_height="119dp"
+                    android:src="@drawable/mfo3" />
             </LinearLayout>
 
             <TextView
@@ -100,6 +100,12 @@
             android:layout_marginRight="16dp"
             android:text="      Across the country, the March for Our Lives movement has created various chapters that aid local communities in putting a permanent end to gun violence. Till date, new chapters are being created in communities all across America. Their main goal is still to spread their message and make all communities across America a safer place."
             android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="398dp"
+            android:layout_height="216dp"
+            android:src="@drawable/mfo5" />
 
         <TextView
             android:id="@+id/Timeline"

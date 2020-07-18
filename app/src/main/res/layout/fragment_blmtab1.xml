@@ -35,6 +35,26 @@
             android:text="      Throughout American history, racism towards African Americans has been extremely prevalent. Slavery, segragation, and the blatant mistreatment towards people of color has allowed generations of white people to treat African Americans differently due to their deeply ingrained racist opinions about them. In 1954, Anti-Black groups formed such as the White Citizens’ Council and Ku Klux Klan, and it led to an incorrect stereotype about African Americans. "
             android:textColor="#000000" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="294dp"
+                android:layout_height="242dp"
+                android:layout_weight="1"
+                android:src="@drawable/blmmm7" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="244dp"
+                android:layout_weight="1"
+                android:src="@drawable/blmmm4" />
+        </LinearLayout>
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="371dp"
@@ -47,12 +67,10 @@
             android:textColor="#000000" />
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="411dp"
-            android:layout_height="136dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginLeft="3dp"
-            android:src="@drawable/blm1" />
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:src="@drawable/blmmm1" />
 
         <TextView
             android:id="@+id/Present_Day"
@@ -74,30 +92,11 @@
             android:text="      To date, 42 per million African Americans have been killed in police shootings; this is higher than any other race and accounts for 1,944 victims. The Black Lives Matter movement has not only been fueled by this statistic, but their rage was sparked by the death of George Floyd, an innocent black man who was killed by an officer by the name of Derek Chauvin. The protests sparked in Minneapolis after May 25th, 2020, the day George Floyd was killed. Mass protests have formed all over the country, not just because of this one event, but because of ALL of the injustice that black people have faced over the 200+ years. "
             android:textColor="#000000" />
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/imageView12"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView48"
-                    android:layout_width="match_parent"
-                    android:layout_height="157dp"
-                    android:src="@drawable/blm13" />
-
-                <ImageView
-                    android:id="@+id/imageView49"
-                    android:layout_width="match_parent"
-                    android:layout_height="125dp"
-                    android:src="@drawable/blm14" />
-            </LinearLayout>
-        </LinearLayout>
+            android:layout_height="251dp"
+            android:src="@drawable/blmmm3" />
 
         <TextView
             android:id="@+id/textView76"
@@ -111,10 +110,10 @@
             android:textColor="#000000" />
 
         <ImageView
-            android:id="@+id/imageView50"
+            android:id="@+id/imageView11"
             android:layout_width="match_parent"
-            android:layout_height="205dp"
-            android:src="@drawable/blm15" />
+            android:layout_height="209dp"
+            android:src="@drawable/blmmm2" />
 
         <TextView
             android:id="@+id/Timeline"

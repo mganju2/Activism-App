@@ -43,7 +43,13 @@
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things, it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
-            android:textColor="#000000"  />
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/pridee3" />
 
         <TextView
             android:id="@+id/Donations"
@@ -164,13 +170,20 @@
         <TextView
             android:id="@+id/textView21"
             android:layout_width="370dp"
-            android:layout_height="wrap_content"
+            android:layout_height="273dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:text="      When it comes to the LGBTQIA+ community, protests are an important part of their history. The reason these individuals have gained so many rights is because they were not afraid to stand up to their oppressors and fight for what they deserved. The Pride Parade, which we celebrate till date, began as a riot and has now become a celebration-- however, we must never forget its roots and where it all began. LGBTQIA+ people are considered a minority and thus, they need all the help they can get to propel positive changes forward. We urge you to go to your local parades and protests to stand in solidarity with this community and display to them that you are truly an ally. Just saying you are not homophobic or transphobic isn’t enough-- it is time to be active allies and support the people that need your help."
             android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="387dp"
+            android:layout_height="273dp"
+            android:layout_weight="1"
+            android:src="@drawable/pridee4" />
 
         <TextView
             android:id="@+id/Voting"
