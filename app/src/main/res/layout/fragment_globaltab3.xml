@@ -22,12 +22,6 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
-        <ImageView
-            android:id="@+id/imageView47"
-            android:layout_width="match_parent"
-            android:layout_height="236dp"
-            android:src="@drawable/gpinfo" />
-
         <TextView
             android:id="@+id/textView72"
             android:layout_width="match_parent"
@@ -39,12 +33,6 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/" />
-
-        <ImageView
-            android:id="@+id/imageView51"
-            android:layout_width="match_parent"
-            android:layout_height="494dp"
-            android:src="@drawable/gpinfo2" />
 
         <TextView
             android:id="@+id/textView73"
