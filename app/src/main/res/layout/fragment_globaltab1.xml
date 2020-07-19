@@ -139,10 +139,10 @@
             android:textColor="#000000"/>
 
         <ImageView
-            android:id="@+id/imageView38"
+            android:id="@+id/imageView46"
             android:layout_width="match_parent"
-            android:layout_height="197dp"
-            android:src="@drawable/green_work_cited" />
+            android:layout_height="157dp"
+            android:src="@drawable/green_work" />
 
     </LinearLayout>
 </ScrollView>

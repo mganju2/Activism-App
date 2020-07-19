@@ -132,10 +132,10 @@
             android:textSize="40sp" />
 
         <ImageView
-            android:id="@+id/imageView42"
+            android:id="@+id/imageView38"
             android:layout_width="match_parent"
-            android:layout_height="242dp"
-            android:src="@drawable/mfol_work_cited" />
+            android:layout_height="171dp"
+            android:src="@drawable/mfol_work" />
 
     </LinearLayout>
 </ScrollView>

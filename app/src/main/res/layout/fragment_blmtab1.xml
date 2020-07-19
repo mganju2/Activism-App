@@ -142,8 +142,8 @@
         <ImageView
             android:id="@+id/imageView40"
             android:layout_width="match_parent"
-            android:layout_height="395dp"
-            android:src="@drawable/blm_work_cited" />
+            android:layout_height="334dp"
+            android:src="@drawable/blmworks" />
 
 
     </LinearLayout>

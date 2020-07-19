@@ -121,8 +121,8 @@
         <ImageView
             android:id="@+id/imageView41"
             android:layout_width="match_parent"
-            android:layout_height="386dp"
-            android:src="@drawable/pride_work_cited" />
+            android:layout_height="308dp"
+            android:src="@drawable/prideworks" />
 
     </LinearLayout>
 </ScrollView>

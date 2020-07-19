@@ -153,8 +153,8 @@
         <ImageView
             android:id="@+id/imageView45"
             android:layout_width="match_parent"
-            android:layout_height="330dp"
-            android:src="@drawable/metoo_work_cited" />
+            android:layout_height="283dp"
+            android:src="@drawable/metooworks" />
 
     </LinearLayout>
 </ScrollView>
