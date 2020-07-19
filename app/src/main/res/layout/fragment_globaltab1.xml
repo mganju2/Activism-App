@@ -138,11 +138,11 @@
             android:textSize="40sp"
             android:textColor="#000000"/>
 
-        <TextView
-            android:id="@+id/textView15"
+        <ImageView
+            android:id="@+id/imageView38"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:textColor="#000000"
-            android:text="Provide citations here" />
+            android:layout_height="197dp"
+            android:src="@drawable/green_work_cited" />
+
     </LinearLayout>
 </ScrollView>

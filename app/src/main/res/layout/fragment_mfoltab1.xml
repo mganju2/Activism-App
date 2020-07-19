@@ -123,19 +123,6 @@
             android:src="@drawable/mfoltimeline" />
 
         <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Timeline: https://www.usatoday.com/pages/interactives/news/gun-control-mass-killings-timeline/"/>
-
-        <TextView
             android:id="@+id/Work_Cited"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,10 +131,11 @@
             android:text="@string/history_section_5"
             android:textSize="40sp" />
 
-        <TextView
-            android:id="@+id/textView15"
+        <ImageView
+            android:id="@+id/imageView42"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:text="Provide citations here" />
+            android:layout_height="242dp"
+            android:src="@drawable/mfol_work_cited" />
+
     </LinearLayout>
 </ScrollView>

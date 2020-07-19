@@ -132,6 +132,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_3"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
         <ImageView
@@ -146,13 +147,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/history_section_5"
+            android:textColor="#000000"
             android:textSize="40sp" />
 
-        <TextView
-            android:id="@+id/textView15"
+        <ImageView
+            android:id="@+id/imageView45"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:text="Provide citations here" />
+            android:layout_height="330dp"
+            android:src="@drawable/metoo_work_cited" />
 
     </LinearLayout>
 </ScrollView>
