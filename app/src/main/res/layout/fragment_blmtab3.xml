@@ -15,7 +15,7 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Additional Information"
+            android:text="@string/extra_section_1"
             android:textColor="#000000"
             android:textSize="40sp" />
 
@@ -115,19 +115,19 @@
             android:id="@+id/textView87"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Soliciting Contributions"
+            android:text="@string/extra_section_2"
             android:textColor="#000000"
             android:textSize="39sp" />
 
         <TextView
             android:id="@+id/textView88"
             android:layout_width="375dp"
-            android:layout_height="143dp"
+            android:layout_height="161dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="While this app does have a lot of information on it we know we did not cover all the bases. So if you have any information you would like to contribute to this app and share with others about this movement please contact us. On the home page there is a button where you can reach us via email and we can consider your input. If it is approved it will show up in additional information section of the specific movement and you will be given credit for the contribution. "
-            android:textColor="#000000"  />
+            android:text="@string/contributions"
+            android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>
