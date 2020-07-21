@@ -24,6 +24,6 @@
 
     <string name="extra_section_1">Additional Information</string>
     <string name="extra_section_2">Soliciting Contributions</string>
-    <string name="contributions">While this app does have a lot of information on it we know we did not cover all the bases. So if you have any information you would like to contribute to this app and share with others about this movement please contact us. On the home page there is a button, with our logo on it, where you can reach us via email and we can consider your input. If it is approved it will show up in additional information section of the specific movement and you will be given credit for the contribution. </string>
+    <string name="contributions">While this app does have a lot of information on it we know we did not cover all the bases. So if you have any information you would like to contribute to this app and share with others about this movement please contact us. On the home page there is a button, with our logo on it, where you can reach us via email and we can consider your input. If it is approved it will show up in the additional information section of the specific movement and you will be given credit for the contribution. </string>
 
 </resources>

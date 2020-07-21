@@ -9,16 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GlobalWarming"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".MeToo"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".MFOL"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Pride"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".BLM"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ContactUs"></activity>
+        <activity
+            android:name=".GlobalWarming"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MeToo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MFOL"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pride"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BLM"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
