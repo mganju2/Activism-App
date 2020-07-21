@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,8 +8,66 @@
     android:background="#7295A6"
     tools:context=".ContactUs">
 
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="We want you to feel like you are an active participant in these movements, so we are giving you a chance to give your input. If you have any information you would like to add to any of these sections please contact us. Anything from an important article to an organization you may have started in your local community can be useful. Please feel free to share any thoughts and feedback on the app in general as well. "
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextFeedbackBody"
+            android:layout_width="fill_parent"
+            android:layout_height="270dp"
+            android:hint="Share a Response"
+            android:inputType="textMultiLine"
+            android:lines="5">
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/CheckBoxResponse"
+            android:layout_height="wrap_content"
+            android:text="Would you like a copy of your response?"
+            android:layout_width="fill_parent">
+        </CheckBox>
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:onClick="sendEmail"
+            android:layout_width="fill_parent">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
