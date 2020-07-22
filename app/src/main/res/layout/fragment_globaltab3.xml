@@ -22,16 +22,21 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
-        <ImageView
-            android:id="@+id/imageView47"
+        <TextView
+            android:id="@+id/textView33"
             android:layout_width="match_parent"
-            android:layout_height="236dp"
-            android:src="@drawable/gpinfo" />
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Below, we have attached multiple links to articles and videos that go in depth about Greenpeace and all the work they have done. Although we cannot fit all the information about Greenpeace and their work in our app, we hope that these articles will shed light on all the great work they are doing and inspire you to help." />
 
         <TextView
             android:id="@+id/textView72"
             android:layout_width="match_parent"
-            android:layout_height="47dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -40,16 +45,10 @@
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/" />
 
-        <ImageView
-            android:id="@+id/imageView51"
-            android:layout_width="match_parent"
-            android:layout_height="494dp"
-            android:src="@drawable/gpinfo2" />
-
         <TextView
             android:id="@+id/textView73"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
+            android:layout_height="35dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -58,16 +57,10 @@
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/campaigns/oceans/" />
 
-        <ImageView
-            android:id="@+id/imageView52"
-            android:layout_width="match_parent"
-            android:layout_height="237dp"
-            android:src="@drawable/gpinfo3" />
-
         <TextView
             android:id="@+id/textView74"
             android:layout_width="match_parent"
-            android:layout_height="76dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -76,16 +69,10 @@
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/usa/global-warming/extreme-weather/" />
 
-        <ImageView
-            android:id="@+id/imageView53"
-            android:layout_width="match_parent"
-            android:layout_height="441dp"
-            android:src="@drawable/gpinfo4" />
-
         <TextView
             android:id="@+id/textView75"
             android:layout_width="match_parent"
-            android:layout_height="87dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"

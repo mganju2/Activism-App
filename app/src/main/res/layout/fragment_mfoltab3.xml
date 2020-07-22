@@ -34,16 +34,10 @@
             android:text="Here we have added some links to articles and videos that elaborate on the March For Our Lives history and past movements. Take a few minutes to watch some videos or scroll past some articles to further educate yourself on gun control. "
             android:textColor="#000000" />
 
-        <ImageView
-            android:id="@+id/imageView56"
-            android:layout_width="match_parent"
-            android:layout_height="335dp"
-            android:src="@drawable/mfolinfo" />
-
         <TextView
             android:id="@+id/textView79"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -52,16 +46,10 @@
             android:linksClickable="true"
             android:text="https://mashable.com/2018/03/22/march-for-our-lives-when-where-what-explained/" />
 
-        <ImageView
-            android:id="@+id/imageView57"
-            android:layout_width="match_parent"
-            android:layout_height="309dp"
-            android:src="@drawable/mfolinfo2" />
-
         <TextView
             android:id="@+id/textView81"
             android:layout_width="match_parent"
-            android:layout_height="83dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -70,16 +58,10 @@
             android:linksClickable="true"
             android:text="https://people.com/crime/what-is-march-for-our-lives-2018/" />
 
-        <ImageView
-            android:id="@+id/imageView58"
-            android:layout_width="match_parent"
-            android:layout_height="231dp"
-            android:src="@drawable/mfolinfo3" />
-
         <TextView
             android:id="@+id/textView82"
             android:layout_width="match_parent"
-            android:layout_height="92dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -87,12 +69,6 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://libguides.com.edu/MarchLives" />
-
-        <ImageView
-            android:id="@+id/imageView59"
-            android:layout_width="match_parent"
-            android:layout_height="327dp"
-            android:src="@drawable/mfolinfo4" />
 
         <TextView
             android:id="@+id/textView83"
