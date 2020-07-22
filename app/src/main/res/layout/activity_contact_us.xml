@@ -46,26 +46,18 @@
         </EditText>
 
         <EditText
-            android:id="@+id/EditTextFeedbackBody"
-            android:layout_width="fill_parent"
-            android:layout_height="270dp"
+            android:id="@+id/EditTextBody"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:ems="10"
             android:hint="Share a Response"
-            android:inputType="textMultiLine"
-            android:lines="5">
-        </EditText>
-
-        <CheckBox
-            android:id="@+id/CheckBoxResponse"
-            android:layout_height="wrap_content"
-            android:text="Would you like a copy of your response?"
-            android:layout_width="fill_parent">
-        </CheckBox>
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/ButtonSendFeedback"
+            android:id="@+id/ButtonSend"
             android:layout_height="wrap_content"
             android:text="Send"
-            android:onClick="sendEmail"
             android:layout_width="fill_parent">
         </Button>
 
