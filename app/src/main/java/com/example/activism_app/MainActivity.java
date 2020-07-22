@@ -5,10 +5,12 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 openBLM();
             }
         });
+
         ImageButton pride = findViewById(R.id.Pride);
         pride.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 openPride();
             }
         });
+
         ImageButton mfol = findViewById(R.id.MFOL);
         mfol.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -40,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 openMFOL();
             }
         });
+
         ImageButton meToo = findViewById(R.id.MeToo);
         meToo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,11 +52,20 @@ public class MainActivity extends AppCompatActivity {
                 openMeToo();
             }
         });
+
         ImageButton global = findViewById(R.id.GlobalW);
         global.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openGlobal();
+            }
+        });
+
+        ImageButton contact = findViewById(R.id.ContactUs);
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openContact();
             }
         });
     }
@@ -73,6 +87,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openGlobal() {
         Intent intent = new Intent(this, GlobalWarming.class);
+        startActivity(intent);
+    }
+    public void openContact() {
+        Intent intent = new Intent(this, ContactUs.class);
         startActivity(intent);
     }
 }
