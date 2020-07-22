@@ -19,9 +19,9 @@
             android:id="@+id/textView48"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:text="Additional Information"
             android:textColor="#000000"
-            android:text="@string/history_section_4" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView49"
