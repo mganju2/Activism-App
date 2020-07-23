@@ -37,6 +37,9 @@ public class ContactUs extends AppCompatActivity {
                 EditText myEmail = findViewById(R.id.EditTextEmail);
                 EditText myMessage = findViewById(R.id.EditTextBody);
                 String myStr = "https://docs.google.com/forms/d/e/1FAIpQLSc71DlzyTtE7f3qxhtZvZAJtXmHRsPQKRgmkRZjOk0IjWHkYw/formResponse?usp=pp_url&entry.1844187849=" + myName.getText() + "&entry.1599659447=" + myEmail.getText() + "&entry.1709743245=" + myMessage.getText() + "&submit=Submit";
+                myName.setText("");
+                myEmail.setText("");
+                myMessage.setText("");
                 Uri uriUrl = Uri.parse(myStr);
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
