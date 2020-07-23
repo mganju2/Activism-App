@@ -57,5 +57,22 @@
             android:text="For some current news on the struggles and progress of the LGBTQ+ community please take a look at these websites -\nhttps://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html\nhttps://www.nbcnews.com/feature/nbc-out/adoption-agency-should-be-able-reject-gay-couples-trump-administration-n1224911\nhttps://www.usnews.com/news/best-countries/articles/2020-06-25/lgbtq-acceptance-growing-in-us-and-other-countries-over-time"
             android:textColor="#000000"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_section_2"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="39sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/contributions"
+            android:textColor="#000000"/>
     </LinearLayout>
 </ScrollView>

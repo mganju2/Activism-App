@@ -18,7 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:text="Additional Information"
+            android:text="@string/extra_section_1"
+            android:gravity="center"
             android:textSize="40sp" />
 
         <TextView
@@ -83,6 +84,24 @@
             android:linksClickable="true"
             android:text="https://www.kjrh.com/news/national-politics/the-race-2020/how-the-metoo-movement-is-changing-culture"
             android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/extra_section_2"
+            android:gravity="center"
+            android:textSize="39sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/contributions"
+            android:textColor="#000000"/>
 
     </LinearLayout>
 
