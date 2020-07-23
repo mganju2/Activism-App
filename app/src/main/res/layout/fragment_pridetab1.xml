@@ -118,11 +118,11 @@
             android:text="@string/history_section_5"
             android:textSize="40sp" />
 
-        <TextView
-            android:id="@+id/textView15"
+        <ImageView
+            android:id="@+id/imageView38"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:textColor="#000000"
-            android:text="Provide citations here" />
+            android:layout_height="314dp"
+            android:src="@drawable/prideworks" />
+
     </LinearLayout>
 </ScrollView>
