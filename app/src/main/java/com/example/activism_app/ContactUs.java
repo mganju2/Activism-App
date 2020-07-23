@@ -3,11 +3,14 @@ package com.example.activism_app;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,7 +40,12 @@ public class ContactUs extends AppCompatActivity {
                 Uri uriUrl = Uri.parse(myStr);
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
-                Toast.makeText(ContactUs.this, "Message Sent", Toast.LENGTH_SHORT).show();
+                Toast toast = Toast.makeText(ContactUs.this, "Thank You!", Toast.LENGTH_SHORT);
+                ViewGroup group = (ViewGroup) toast.getView();
+                TextView messageTextView = (TextView) group.getChildAt(0);
+                messageTextView.setTextSize(40);
+                toast.setGravity(Gravity.TOP|Gravity.START, 210, 800);
+                toast.show();
             }
         });
     }
