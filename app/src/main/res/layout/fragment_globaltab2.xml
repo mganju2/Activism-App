@@ -211,12 +211,12 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="379dp"
-            android:layout_height="wrap_content"
+            android:layout_height="269dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="      The most powerful voice is from the people. The strongest protection of this planet is from the people. Reading more about the science behind global warming, climate change, ocean conservation, and all the movements Greenpeace is working to support will shed light on how much Americans do not prioritize the health of this world. It is important to support these movements, and the best way to do it is to vote for officials that put the environment as a high priority. Without a clean earth, there is nothing to leave for our children and grandchildren other than a mess of extra problems. Not just for the health of future generations, it’s important to care for the health of helpless creatures and prevent their extinction. By supporting officials that care about environmental preservation, you are taking a step to help the world. "
-            android:textColor="#000000"/>
+            android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>
