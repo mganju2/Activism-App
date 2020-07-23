@@ -25,6 +25,17 @@
             android:textSize="40sp" />
 
         <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="There is a lot more to learn about March For Our Lives so we have provided some resources that can help further your knowledge about this subject!"
+            android:textColor="#000000" />
+
+        <TextView
             android:id="@+id/textView78"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,8 +43,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Here we have added some links to articles and videos that elaborate on the March For Our Lives history and past movements. Take a few minutes to watch some videos or scroll past some articles to further educate yourself on gun control. "
-            android:textColor="#000000" />
+            android:text="Here we have added some links to articles and videos that elaborate on the March For Our Lives history and past movements."
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/textView79"
@@ -82,6 +93,41 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://www.smithsonianmag.com/innovation/march-for-our-lives-student-activists-showed-meaning-tragedy-180970717/" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="The links below zero in on the marches that took place in 2018 and how powerful they were." />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.cbsnews.com/news/march-for-our-lives-39-days-how-parkland-students-turned-grief-into-action/" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://giffords.org/blog/2019/03/7-ways-america-changed-since-the-march-for-our-lives/" />
 
         <TextView
             android:layout_width="match_parent"

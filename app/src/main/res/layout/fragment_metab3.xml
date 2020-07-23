@@ -25,13 +25,24 @@
         <TextView
             android:id="@+id/textView42"
             android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="There is a lot more to learn about the MeToo movement so we have provided some resources that can help further your knowledge about this subject!"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="In this section, we have added links to additional videos and articles we feel are beneficial in understanding the history of the MeToo movement that goes more into depth than we did in our previous tabs. If you can, take a few minutes to look through the articles and videos so you can become more educated on an extremely important topic. " />
+            android:text="Here is an article on why Tarana Burke founded the MeToo movement." />
 
         <TextView
             android:id="@+id/textView43"
@@ -45,6 +56,17 @@
             android:linksClickable="true"
             android:text="https://www.businessinsider.com/how-the-metoo-movement-started-where-its-headed-tarana-burke-time-person-of-year-women-2017-12"
             android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="Below are a few articles that talk about the impact of MeToo and how it is changing the world." />
 
         <TextView
             android:id="@+id/textView44"
@@ -84,6 +106,29 @@
             android:linksClickable="true"
             android:text="https://www.kjrh.com/news/national-politics/the-race-2020/how-the-metoo-movement-is-changing-culture"
             android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="The video below explains how the modern world is being affected by MeToo." />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.youtube.com/watch?v=ATYK2svJ6eM" />
 
         <TextView
             android:layout_width="match_parent"

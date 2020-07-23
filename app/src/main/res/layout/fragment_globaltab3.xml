@@ -24,6 +24,17 @@
             android:textSize="40sp" />
 
         <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="There is a lot more to learn about Green Peace so we have provided some resources that can help further your knowledge about this subject!"
+            android:textColor="#000000" />
+
+        <TextView
             android:id="@+id/textView33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,7 +43,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Below, we have attached multiple links to articles and videos that go in depth about Greenpeace and all the work they have done. Although we cannot fit all the information about Greenpeace and their work in our app, we hope that these articles will shed light on all the great work they are doing and inspire you to help." />
+            android:text="Below, we have attached multiple links to articles and videos that go in depth about Greenpeace and all the work they have done. These articles will shed light on all the great work they are doing and inspire you to help." />
 
         <TextView
             android:id="@+id/textView72"
