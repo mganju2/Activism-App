@@ -57,12 +57,5 @@
             android:text="For some current news on the struggles and progress of the LGBTQ+ community please take a look at these websites -\nhttps://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html\nhttps://www.nbcnews.com/feature/nbc-out/adoption-agency-should-be-able-reject-gay-couples-trump-administration-n1224911\nhttps://www.usnews.com/news/best-countries/articles/2020-06-25/lgbtq-acceptance-growing-in-us-and-other-countries-over-time"
             android:textColor="#000000"/>
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="This is where you get a chance to share any information you would like that would help educate others. We should also ask them to post stuff about their local protests, petitions, voting bills etc. I wonder if we can make it region specific but that could be hella confusing so for not everyone will be able to see the stuff on this page "
-            android:textColor="#000000"/>
     </LinearLayout>
 </ScrollView>

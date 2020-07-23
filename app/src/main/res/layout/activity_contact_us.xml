@@ -25,9 +25,10 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="We want you to feel like you are an active participant in these movements, so we are giving you a chance to give your input. If you have any information you would like to add to any of these sections please contact us. Anything from an important article to an organization you may have started in your local community can be useful. Please feel free to share any thoughts and feedback on the app in general as well. "
+            android:layout_gravity="center"
+            android:text="    Please Share\n Thoughts Below!"
             android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textSize="40sp" />
 
         <EditText
             android:id="@+id/EditTextName"
