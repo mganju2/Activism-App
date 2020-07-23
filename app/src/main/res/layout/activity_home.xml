@@ -31,10 +31,12 @@
         android:layout_marginEnd="49dp"
         android:layout_marginRight="49dp"
         android:layout_marginBottom="103dp"
-        android:text="TextView"
+        android:text="In today’s day and age, society is riddled with political strife, social issues, and clear violations of basic human rights. With our app, we hope to clarify the origins and missions of various movements so that citizens can partake in changing the fate of this country for the better."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView30"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
