@@ -101,6 +101,41 @@
             android:text="https://www.dailytarheel.com/article/2019/09/why-you-cant-say-the-n-word-if-youre-not-black" />
 
         <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="These 2 articles are first hand experiences of black people growing up in america and they describe the racism they have felt throughout their lives." />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.theguardian.com/us-news/2018/jun/06/growing-up-black-in-america-racism-education" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.npr.org/2020/06/05/867060621/being-black-in-america-we-have-a-place-in-this-world-too" />
+
+        <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

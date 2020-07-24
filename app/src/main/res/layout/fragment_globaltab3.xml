@@ -31,8 +31,9 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
+            android:textColor="#000000"
             android:text="There is a lot more to learn about Green Peace so we have provided some resources that can help further your knowledge about this subject!"
-            android:textColor="#000000" />
+             />
 
         <TextView
             android:id="@+id/textView33"
@@ -92,6 +93,54 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="https://www.greenpeace.org/international/story/20165/5-young-activists-who-inspired-us-this-year/" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="A current an important environmental and global issue that has been talked about a lot recentely is global warming. This article breaks down what it is and what you need to know about it. "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.nrdc.org/stories/global-warming-101" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="For some more current news on global warming take a look at these articles. \nhttps://www.washingtonpost.com/weather/2020/07/22/climate-sensitivity-co2 \nhttps://www.scientificamerican.com/article/worst-and-best-case-scenarios-for-warming-less-likely-groundbreaking-study-finds/"/>
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#000000"
+            android:text="Greta Thunberg is a 17 year old environmental activist making real change in today's world. Here is an article about all the amazing work she has done so far and is continuing to do so. \nhttps://time.com/person-of-the-year-2019-greta-thunberg/" />
 
         <TextView
             android:layout_width="match_parent"

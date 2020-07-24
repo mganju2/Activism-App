@@ -103,7 +103,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="The links below zero in on the marches that took place in 2018 and how powerful they were." />
+            android:text="The links below talk about the marches that took place in 2018 and how powerful they were." />
 
         <TextView
             android:id="@+id/textView100"
@@ -129,6 +129,27 @@
             android:linksClickable="true"
             android:text="https://giffords.org/blog/2019/03/7-ways-america-changed-since-the-march-for-our-lives/" />
 
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000000"
+            android:text="Here is a recent article explaineing the spike in gun violence during this pandemic." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.cnn.com/2020/07/01/us/homicides-shootings-spike-us-cities/index.html"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
