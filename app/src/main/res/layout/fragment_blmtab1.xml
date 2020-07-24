@@ -66,12 +66,6 @@
             android:text="      In 2013, the Black Lives Matter movement officially became an organization headed by Alicia Garza, Patrisse Cullors, etc. Its creation was in response to the acquittal of the criminals responsible for Trayvon Martin's murder. They truly began to fight racist oppressors after the death of Michael Brown, an innocent 18 year old boy killed by a police officer named Daren Wilson. By holding protests and demanding change, they were able to make their mark as a prominent organization that fights for equal treatment of black people. Since its inception, the BLM movement has had sister branches in eighteen different cities across the world. The Black Lives Matter movement is an ideological and political platform that highlights situations where black people are put to a disadvantage due to racism. This movement’s main focus has been centered around police brutality because it has heavily impacted the black community. "
             android:textColor="#000000" />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="match_parent"
-            android:layout_height="231dp"
-            android:src="@drawable/blmmm1" />
-
         <TextView
             android:id="@+id/Present_Day"
             android:layout_width="wrap_content"
@@ -96,7 +90,7 @@
             android:id="@+id/imageView12"
             android:layout_width="match_parent"
             android:layout_height="251dp"
-            android:src="@drawable/blmmm3" />
+            android:src="@drawable/blmmm1" />
 
         <TextView
             android:id="@+id/textView76"
