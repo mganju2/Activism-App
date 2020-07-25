@@ -34,12 +34,12 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text='      March For Our Lives is as a student-led protest that supports anti-gun laws and the prevention of gun violence. The shooting that triggered this movement occurred at Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event took place, students at the high school organized a "Never Again" campaign--  a student-led political committee demanding tighter regulations on gun control.  At the forefront of the campaign was Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement, overall, gained significant support from many celebrities who donated money and came out in person to support marches all around the country. March For Our Lives created wide recognition of gun control issues and led the majority of Americans to agree with increased background testing when buying a firearm.'
+            android:text='      March For Our Lives is as a student-led protest that supports anti-gun laws and the prevention of gun violence. The shooting that triggered this movement occurred at Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event took place, students at the high school organized a "Never Again" campaign--  a student-led political committee demanding tighter regulations on gun control.  At the forefront of the campaign were high school students Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement, overall, gained significant support from many celebrities who donated money and came out in person to support marches all around the country. March For Our Lives created wide recognition of gun control issues and led the majority of Americans to agree with increased background testing when buying a firearm.'
             android:textColor="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="359dp"
+            android:layout_height="328dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -64,9 +64,9 @@
             <TextView
                 android:id="@+id/textView47"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="325dp"
                 android:layout_weight="1"
-                android:text="      With increased awareness of the dire need for gun control, protests sparked across the country and students orchestrated marches in their hometowns. On March 14, 2018 there was a nationwide walkout in which more than 2,600 schools participated. It lasted for 17 minutes which was the same amount of time the shooter was inside Stoneman Douglas High School in Parkland, Florida. Aside from the walkout, the march for March For Our Lives was ten days later and in just the United States alone, 1.2 million people participated. Soon enough, March For Our Lives became the biggest student-led protest since the Vietnam War era."
+                android:text="      With increased awareness of the dire need for gun control, student-led protests sparked across the country. On March 14, 2018 there was a nationwide walkout in which more than 2,600 schools participated. It lasted for 17 minutes which was the same amount of time the shooter was inside Stoneman Douglas High School in Parkland, Florida. Aside from the walkout, the official march was ten days later and in just the United States alone, 1.2 million people participated. Soon enough, March For Our Lives became the biggest student-led protest since the Vietnam War era."
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -90,22 +90,22 @@
             android:text="      March For Our Lives is still a fairly new movement when it comes to the anti-gun world, as it only began in 2018. Over the past few years, the number of protests and the movement's presence in mass media have both significantly decreased. However, do not mistake this as the end of the movement, as there is still a lot of work being done behind the scenes. Their most recent campaign is called Our Power in which members are promoting that people take back their power from the government and use it to make change. Participants take a pledge to be part of the movement and are encouraged to register to vote and advocate for anti-gun policies. Their main focus currently is to create real policy changes through voting for officials and bills in support of adding restrictions to gun control laws."
             android:textColor="#000000" />
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:src="@drawable/mfo1" />
+
         <TextView
             android:id="@+id/textView67"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="122dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      Across the country, the March for Our Lives movement has created various chapters that aid local communities in putting a permanent end to gun violence. Till date, new chapters are being created in communities all across America. Their main goal is still to spread their message and make all communities across America a safer place."
+            android:text="      Across the country, the March for Our Lives movement has created various chapters that aid local communities in putting a permanent end to gun violence. Till date, new chapters are being created in communities all across America. Their main goal is still to spread their message and make all communities and schools across America a safer place."
             android:textColor="#000000" />
-
-        <ImageView
-            android:id="@+id/imageView34"
-            android:layout_width="398dp"
-            android:layout_height="216dp"
-            android:src="@drawable/mfo5" />
 
         <TextView
             android:id="@+id/Timeline"
