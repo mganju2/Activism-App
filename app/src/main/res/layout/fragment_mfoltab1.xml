@@ -34,7 +34,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text='      March For Our Lives is as a student-led protest that supports anti-gun laws and the prevention of gun violence. The shooting that triggered this movement occurred at Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event took place, students at the high school organized a "Never Again" campaign--  a student-led political committee demanding tighter regulations on gun control.  At the forefront of the campaign were high school students Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement, overall, gained significant support from many celebrities who donated money and came out in person to support marches all around the country. March For Our Lives created wide recognition of gun control issues and led the majority of Americans to agree with increased background testing when buying a firearm.'
+            android:text='      March For Our Lives is as a student-led protest that supports anti-gun laws and the prevention of gun violence. The shooting that triggered this movement was when a former student killed 17 people and injured 17 more at Marjory Stoneman Douglas High School in Parkland, Florida. After this brutal event took place, students at the high school organized a "Never Again" campaign - a student-led political committee demanding tighter regulations on gun control.  At the forefront of the campaign were high school students Alex Wind (creator of the movement), Emma Gonzalez, David Hogg, and Cameron Kasky.  The movement, overall, gained significant support from many celebrities who donated money and came out in person to support marches all around the country. March For Our Lives created wide recognition of gun control issues and led the majority of Americans to agree with increased background testing when buying a firearm.'
             android:textColor="#000000" />
 
         <LinearLayout
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="325dp"
                 android:layout_weight="1"
-                android:text="      With increased awareness of the dire need for gun control, student-led protests sparked across the country. On March 14, 2018 there was a nationwide walkout in which more than 2,600 schools participated. It lasted for 17 minutes which was the same amount of time the shooter was inside Stoneman Douglas High School in Parkland, Florida. Aside from the walkout, the official march was ten days later and in just the United States alone, 1.2 million people participated. Soon enough, March For Our Lives became the biggest student-led protest since the Vietnam War era."
+                android:text="      With increased awareness of the dire need for gun control, student-led protests sparked across the country. On March 14, 2018 there was a nationwide walkout in which more than 2,600 schools participated. It lasted for 17 minutes, one minute for each person that was killed inside Stoneman Douglas High School in Parkland, Florida. Aside from the walkout, the official march was ten days later and in just the United States alone, 1.2 million people participated. Soon enough, March For Our Lives became the biggest student-led protest since the Vietnam War era."
                 android:textColor="#000000" />
         </LinearLayout>
 
