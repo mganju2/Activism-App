@@ -164,20 +164,20 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="354dp"
+            android:layout_height="348dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="224dp"
-                android:layout_height="413dp"
+                android:layout_height="324dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:autoLink="web"
                 android:linksClickable="true"
-                android:text="      Greenpeace has been donating their time and money to help out countries in need during COVID-19, such as Brazil. They are strong believers that this virus can lead to many more deaths and could harm people if action isn't taken. They are fighting for less ignorance, for more action taken to prevent more deaths. In the midst of a pandemic, they are still looking for ways to help reverse the effects of climate change, prevent deforestation, and protect endangered species from going extinct. It all starts with the government, and their willingness to help. In order for the government to hear, they need your support and your voice, so visit their page and find ways to take action. https://www.greenpeace.org/international/"
+                android:text="Protests have been extremely important in understanding the issues this country faces. The people's voice matters and if enough choose to speak up and demand a change, there will be reform. GreenPeace believes peaceful protesting can lead to real change in policies in this country. In 2015, they successfully protested and stopped a company from drilling the Arctic for oil. This is a key strategy in their campaigns and it has proven to be successful countless times. We must show up for the environment because if we do not try to protect it or try to prevent harm to it, it will not be around for much longer. "
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -188,7 +188,7 @@
                 <ImageView
                     android:id="@+id/imageView19"
                     android:layout_width="match_parent"
-                    android:layout_height="214dp"
+                    android:layout_height="172dp"
                     android:src="@drawable/gbb1" />
 
                 <ImageView
@@ -227,7 +227,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="The power to vote is not something that should be taken lightly. It gives people more power than he or she realizes to help create real change. Voting for bills and local community leaders is a great way to support the Green Peace community. Vote for officials who are supportive of the community and are willing to pass laws to help them create change. Vote for bills that actively try to help these individuals in any way."
+            android:text="      The power to vote is not something that should be taken lightly. It gives people more power than he or she realizes to help create real change. Voting for bills and local community leaders is a great way to support the Green Peace community. Vote for officials who are supportive of the community and are willing to pass laws to help them create change. Vote for bills that actively try to help these individuals in any way."
             android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>
