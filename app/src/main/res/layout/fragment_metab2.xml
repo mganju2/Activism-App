@@ -43,7 +43,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things, it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
+            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do any or all of these things, it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
             android:textColor="#000000" />
 
         <TextView

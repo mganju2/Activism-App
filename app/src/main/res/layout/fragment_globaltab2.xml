@@ -43,8 +43,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things, it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
-            android:textColor="#000000"/>
+            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do any or all of these things, it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
+            android:textColor="#000000" />
 
         <ImageView
             android:id="@+id/imageView28"
@@ -64,18 +64,18 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="378dp"
-            android:layout_height="116dp"
+            android:layout_height="126dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:text="      Donating is a crucial part of every movement. Notable organizations already fully commit to this cause and do incredible work and even the smallest donation can help advance significant changes in our society. Aside from donating money, you can also donate your time to these organizations who are always looking for volunteers to help out."
-            android:textColor="#000000"/>
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView74"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="23dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -87,7 +87,7 @@
         <TextView
             android:id="@+id/textView13"
             android:layout_width="371dp"
-            android:layout_height="94dp"
+            android:layout_height="90dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -120,12 +120,12 @@
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_height="77dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Here are some websites to sign petitions and show your support for the Greenpeace movement. They are working towards saving endangered species and help regulate the climate and reverse human damage. If you can, take a few moments to sign these petitions and show your support for this movement."
+            android:text="Here are some websites to sign petitions and show your support for the Greenpeace movement. They are working towards saving endangered species and help regulate the climate and reverse human damage."
             android:textColor="#000000" />
 
         <TextView
@@ -138,7 +138,7 @@
             android:layout_marginRight="16dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Here is a website that provides many different links to sign petitions for specific Greenpeace movements you can look into and support: https://www.greenpeace.org/usa/take-action/"
+            android:text="https://www.greenpeace.org/usa/take-action/"
             android:textColor="#000000" />
 
         <TextView

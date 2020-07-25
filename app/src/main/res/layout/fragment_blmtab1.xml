@@ -32,7 +32,7 @@
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      Throughout American history, racism towards black people has been extremely prevalent. Slavery, segregation, and the blatant mistreatment towards people of color has allowed generations of white people to treat black people differently due to their deeply ingrained racist opinions about them. In 1954, Anti-Black groups formed such as the White Citizens’ Council and Ku Klux Klan, and it led to an incorrect stereotype about black people. "
+            android:text="      Throughout American history, racism towards black people has been extremely prevalent. Slavery, segregation, and the blatant mistreatment towards people of color has allowed generations of white people to treat black people differently due to their deeply ingrained racist opinions about them. In 1954, Anti-Black groups such as the White Citizens’ Council and Ku Klux Klan were formed, and it led to a phobia against black people. "
             android:textColor="#000000" />
 
         <LinearLayout
@@ -58,12 +58,12 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="371dp"
-            android:layout_height="288dp"
+            android:layout_height="320dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="16dp"
-            android:text="      In 2013, the Black Lives Matter movement officially became an organization headed by Alicia Garza, Patrisse Cullors, etc. Its creation was in response to the acquittal of the criminals responsible for Trayvon Martin's murder. They truly began to fight racist oppressors after the death of Michael Brown, an innocent 18 year old boy killed by a police officer named Daren Wilson. By holding protests and demanding change, they were able to make their mark as a prominent organization that fights for equal treatment of black people. Since its inception, the BLM movement has had sister branches in eighteen different cities across the world. The Black Lives Matter movement is an ideological and political platform that highlights situations where black people are put to a disadvantage due to racism. This movement’s main focus has been centered around police brutality because it has heavily impacted the black community. "
+            android:text="      In 2013, the Black Lives Matter movement officially became an organization headed by public speaker Alicia Garza, freedom fighter Patrisse Cullors, and writer Opal Tometi. It was created in response to the acquittal of the shooter responsible for the murder of Trayvon Martin, a 17 year old African American boy who was wrongfully shot. They truly began to fight racist oppressors after the death of Michael Brown, an innocent 18 year old boy killed by a police officer named Daren Wilson. By holding protests and demanding change, they were able to make their mark as a prominent organization that fights for equal treatment of black people. Since its inception, the BLM movement has inspired the creation of sister branches in eighteen different cities across the world. The Black Lives Matter movement is an ideological and political platform that highlights situations where black people are put to a disadvantage due to racism. This movement’s main focus has been centered around police brutality because it has heavily impacted the black community. "
             android:textColor="#000000" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      To date, 42 per million black people have been killed in police shootings; this is higher than any other race and accounts for 1,944 victims. The Black Lives Matter movement has not only been fueled by this statistic, but their rage was sparked by the death of George Floyd, an innocent black man who was killed by an officer by the name of Derek Chauvin. The protests sparked in Minneapolis after May 25th, 2020, the day George Floyd was killed. Mass protests have formed all over the country, not just because of this one event, but because of all of the injustice that black people have faced over the 200+ years. "
+            android:text="      To date, forty two in a million black people have been killed in police shootings; this is higher than any other race and accounts for 1,944 victims. The Black Lives Matter movement has not only been fueled by this statistic, but their rage was sparked by the death of George Floyd, an innocent black man who was killed by an officer by the name of Derek Chauvin. The protests sparked in Minneapolis after May 25th, 2020, the day George Floyd was killed. Mass protests have formed all over the country, not just because of this one event, but because of all of the injustice that black people have faced over the 200+ years. "
             android:textColor="#000000" />
 
         <ImageView
@@ -95,12 +95,12 @@
         <TextView
             android:id="@+id/textView76"
             android:layout_width="369dp"
-            android:layout_height="354dp"
+            android:layout_height="372dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      There have been hundreds of black people wrongfully killed by law enforcement, including a recent case of Breonna Taylor as well, whose story has been shared by millions. Additionally, 98.7% of police officers that have wrongfully injured an black people were left uncharged afterwards, which demonstrates the corruption prevalent throughout law enforcement. Towards the beginning of the movement, a football player named Colin Kaepernick kneeled during the national anthem to peacefully protest police brutality and was essentially shunned from the NFL. Ever since the death of George Floyd, people are quick to point out the ignorance of the public after Kaepernick’s protest. The “I Can’t Breathe” campaign had 15-26 million protestors participate and have demanded there be repercussions given to police departments around the country, and there have been results. Minneapolis and New York were the first states to change their programs and have a more public police record. Also, states such as Minnesota, California, and Maryland have begun to reallocate police money and essentially ‘defund’ them in order to help restructure the program."
+            android:text="      There have been hundreds of black people wrongfully killed by law enforcement, including a recent case of Breonna Taylor as well, who was shot in her house while she was sleeping. Additionally, 98.7% of police officers that have wrongfully injured a black person were left uncharged afterwards, which demonstrates the corruption prevalent throughout law enforcement. Towards the beginning of the movement, a football player named Colin Kaepernick kneeled during the national anthem to peacefully protest police brutality and was essentially shunned from the NFL. Ever since the death of George Floyd, people are quick to point out the ignorance of the public after Kaepernick’s protest. Another campaign stemmed from BLM is the “I Can’t Breathe” movement that had millions of protestors participate and demand there be repercussions given to police departments around the country. Minneapolis and New York were the first states to change their programs and have a more public police record. Also, states such as Minnesota, California, and Maryland have begun to reallocate police money and essentially ‘defund’ them in order to help restructure the program."
             android:textColor="#000000" />
 
         <ImageView

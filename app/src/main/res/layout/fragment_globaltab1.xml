@@ -37,7 +37,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="      Greenpeace is one of the oldest protest organizations, running for over forty years.  It started in 1971, where a couple activists left their homes in Alaska and were determined to spread awareness of nuclear testing. America was planning on continuing their plans of nuclear testing, which, if gone through, was going to harm many indigenous species in Alaska. Several Canadians, along with Alaskans, decided to start a “Don’t Make a Wave'' Committee, where they protested a local nuclear testing, as it could also cause massive tidal waves. "
+                android:text="      Greenpeace is one of the oldest protest organizations, running for over forty years.  It started in 1971, where a couple of activists left their homes in Alaska and were determined to spread awareness about nuclear testing. America was planning on continuing their plan of nuclear testing, that if gone through, was going to harm many indigenous species in Alaska. Several Canadians, along with Alaskans, decided to start a “Don’t Make a Wave'' Committee, where they protested a local nuclear testing, as it could also cause massive tidal waves. "
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -94,7 +94,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      The Greenpeace movement is aimed to preserve the lives of endangered species, prevent environmental abuses, and increase environmental awareness of reducing pollution. Their main goal is to promote nonviolent protests to help bring awareness to the issues that come with burning fossil fuels. There is currently an international corporation with over fifty locations in several countries."
+            android:text="      The Greenpeace movement is aimed to preserve the lives of endangered species, prevent environmental abuses, and increase environmental awareness of reducing pollution. Their main goal is to promote nonviolent protests to help bring awareness to the issues that come with burning fossil fuels. They are currently an international corporation with over fifty locations in several countries."
             android:textColor="#000000" />
 
         <TextView
@@ -105,7 +105,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      Because technology is becoming more advanced and people are becoming more reliant upon it, the amount of fossil fuels and harmful chemicals that are being burned and released into the atmosphere has reached an all time high. The country is divided into two groups, those who believe climate change is real as proven through scientific evidence, and those who believe it is not. There are several campaigns running right now including the Save the Arctic, Protecting Forests, Fighting Global Warming, Protecting Our Oceans, and much more. These campaigns are fighting daily to find more supporters that believe our world is worth saving. America is one country that is doing the least in terms of supporting the environment, as we seem to be moving backwards on environmental policies while other countries are surging forward. For example, global warming has been a prevalent issue that many citizens and politicians turn away from. While there is scientific evidence that the world is getting warmer, many Americans do not believe that it exists. Fighting to build clean energy sources and end environmental destruction caused by global warming is one of the many things that Greenpeace is looking to end. "
+            android:text="      Because technology is becoming more advanced and people are becoming more reliant upon it, the amount of fossil fuels and harmful chemicals that are being burned and released into the atmosphere has reached an all time high. The country is divided into two groups, those who believe climate change is real as proven through scientific evidence, and those who believe it is not. There are several campaigns running right now including the Save the Arctic, Protecting Forests, Fighting Global Warming, Protecting Our Oceans, and much more. These campaigns are fighting daily to find more supporters that believe our world is worth saving. America is one country that is doing the least in terms of supporting the environment, as we seem to be moving backwards on environmental policies while other countries are surging forward. For example, global warming has been a prevalent issue that many citizens and politicians ignore even acknowledging. While there is scientific evidence that the world is getting warmer, many Americans do not believe that it exists. Fighting to build clean energy sources and ending environmental destruction caused by global warming are some of the things that Greenpeace is looking to address. "
             android:textColor="#000000" />
 
         <ImageView

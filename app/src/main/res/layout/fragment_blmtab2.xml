@@ -45,7 +45,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do one or any or all of these things, it will be greatly appreciated by everyone and it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
+            android:text="      The four key things that any person can do to help is to donate, sign petitions, show up to protests, and vote if you are old enough to. If you are able to do any or all of these things, it will help make a truly lasting change in our country. It is time we see real change for all of these movements and down below is how you can do your part. It is also important to just reach out and check in on friends and family. Share your resources and have difficult conversations with the more close-minded people of our societies. Be an ally in any way possible because staying silent only adds to the oppressions that have already been going on for much too long."
             android:textColor="#000000" />
 
         <ImageView
@@ -66,7 +66,7 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="378dp"
-            android:layout_height="116dp"
+            android:layout_height="125dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -77,7 +77,7 @@
         <TextView
             android:id="@+id/textView22"
             android:layout_width="377dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -90,20 +90,20 @@
         <TextView
             android:id="@+id/textView24"
             android:layout_width="377dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="There is also a list of 24 locations to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate"
+            android:text="There is also a list of 24 places to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate"
             android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="377dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -116,7 +116,7 @@
         <TextView
             android:id="@+id/textView9"
             android:layout_width="377dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -138,7 +138,7 @@
         <TextView
             android:id="@+id/textView19"
             android:layout_width="374dp"
-            android:layout_height="wrap_content"
+            android:layout_height="47dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -149,7 +149,7 @@
         <TextView
             android:id="@+id/textview24"
             android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -162,7 +162,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -175,7 +175,7 @@
         <TextView
             android:id="@+id/textView6"
             android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -188,7 +188,7 @@
         <TextView
             android:id="@+id/textView14"
             android:layout_width="370dp"
-            android:layout_height="wrap_content"
+            android:layout_height="47dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
@@ -215,7 +215,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      Protests have been extremely important in understanding the issues this country faces. The people's voice matters and if enough choose to speak up and demand a change, there will be reform. Especially in the younger generation, there are much louder voices that are pressuring officials to take action. Four out of five people under the age of thirty support BLM, and this generation are the ones leading these protests. Go to these protests and demonstrate to the black community that we believe their suffering must come to an end. Stand in solidarity with them and prove to our government that no one will put up with the blatant disrespect black people face in this country everyday. "
+            android:text="      Protests have been extremely important in understanding the issues this country faces. The people's voice matters and if enough choose to speak up and demand a change, there will be reform. Especially in the younger generation, there are much louder voices that are pressuring officials to take action. Four out of five people under the age of thirty support BLM, and this generation is the one leading these protests. Go to these protests and demonstrate to the black community that we believe their suffering must come to an end. Stand in solidarity with them and prove to our government that no one will put up with the blatant disrespect black people face in this country everyday. "
             android:textColor="#000000" />
 
         <LinearLayout
@@ -241,7 +241,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      There has been a lot of controversy surrounding the protests in 2020 centered around this movement. While, globally, the majority of these protests have been peaceful, a few have escalated and gotten slightly violent. Some people shame the very few protestors who have gotten violent, but that is because they do not understand the suppression these people protesting have felt that, in turns, makes them feel the need to retaliate in an aggressive manner. Unless you are a black person, you can not even begin to fathom what it must feel to exist as a black person in this country and the hundreds of years of oppression their people have faced. The violence, in question, seen throughout these select few protests is quite often defacement of police property. Though that still can be considered violent, it could not even begin to compare to the countless number of injustices that the police commit against innocent people every day. Others often point their fingers at looting that has taken place across the country. However, people must note that these heinous acts are associated with the Black Lives Matter protests, in any way, shape, or form. The looters are simply taking advantage of a tense and unpredictable situation and using this unsteady political climate to get away with crime. "
+            android:text="      There has been a lot of controversy surrounding the protests in 2020 centered around this movement. While, globally, the majority of these protests have been peaceful, a few have escalated and gotten slightly violent. Some people shame the very few protestors who have gotten violent, but that is because they do not understand the suppression these people protesting have felt that, in turn, makes them feel the need to retaliate in an aggressive manner. Unless you are a black person, you can not even begin to fathom what it must feel like to exist as a black person in this country and the hundreds of years of oppression their people have faced. The violence, in question, seen throughout these select few protests is quite often defacement of police property. Though that still can be considered violent, it could not even begin to compare to the countless number of injustices that the police commit against innocent people every day. Others often point their fingers at looting that has taken place across the country. However, people must note that these heinous acts are not associated with the Black Lives Matter protests, in any way, shape, or form. The looters are simply taking advantage of a tense and unpredictable situation and using this unsteady political climate to get away with crime. "
             android:textColor="#000000"/>
 
         <TextView
@@ -272,7 +272,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      More than 40% of registered black voters are unable to vote due to various obstacles such as either lacking means of transportation or lacking time off of work, and also through being discouraged to vote due to their minority status in most communities. Because of the voter suppression many black people face, us allies have the power to help make a difference by exhibiting our undisturbed privilege to vote. You have the power to help make the difference and create a safer world for black people and everyone else. So register now and vote in the 2020 primaries and elections and every year after that, because the discrimination and hate must come to an end."
+            android:text="      More than 40% of registered black voters are unable to vote due to various obstacles such as either lacking means of transportation or lacking time off of work, and also through being discouraged to vote due to their minority status in most communities. Because of the voter suppression many black people face, we as the allies have the power to help make a difference by exhibiting our undisturbed privilege to vote. You have the power to help make the difference and create a safer world for black people and everyone else. So register now and vote in the 2020 primaries and elections and every year after that, because the discrimination and hate must come to an end."
             android:textColor="#000000" />
 
     </LinearLayout>

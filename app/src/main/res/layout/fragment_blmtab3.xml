@@ -68,7 +68,7 @@
         <TextView
             android:id="@+id/textView28"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="31dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -86,12 +86,12 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="There is a huge debate about whether people who are not black should be allowed to say that n-word or not. If you are not black and think it is fine to use the n-word or do not understand why it is so offensive please take a look at the link below. " />
+            android:text="There is a huge debate about whether people who are not black should be allowed to say the 'n-word' or not. If you are not black and think it is fine to use the 'n-word' or do not understand why it is so offensive please take a look at the link below. " />
 
         <TextView
             android:id="@+id/textView64"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -109,7 +109,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="These 2 articles are first hand experiences of black people growing up in america and they describe the racism they have felt throughout their lives." />
+            android:text="These 2 articles are first hand experiences of black people growing up in America and they describe the racism they have felt throughout their lives." />
 
         <TextView
             android:id="@+id/textView15"
@@ -126,7 +126,7 @@
         <TextView
             android:id="@+id/textView92"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
@@ -144,12 +144,12 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="This is a google doc someone created that had a lot more information on the current black lives matter movement. There is a lot of educational information as well as information on how to help in your local communities." />
+            android:text="This is a google doc that has a lot more information on the current black lives matter movement. There is a lot of educational information as well as information on how to help in your local communities." />
 
         <TextView
             android:id="@+id/textView80"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="46dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
