@@ -32,7 +32,7 @@
             android:layout_marginLeft="155dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="    Throughout American history, racism towards black people has been extremely prevalent. Slavery, segregation, and the blatant mistreatment towards people of color has allowed generations of people to treat black people differently due to their deeply ingrained racist opinions about them. In 2013, the Black Lives Matter movement officially became an organization headed by public speaker Alicia Garza, freedom fighter Patrisse Cullors, and writer Opal Tometi. It was created in response to the acquittal of the shooter responsible for the murder of Trayvon Martin, a 17 year old African American boy who was wrongfully shot. The Black Lives Matter movement is an ideological and political platform that highlights situations where black people are put to a disadvantage due to racism. This movement’s main focus has been centered around police brutality because it has heavily impacted the black community. By holding protests and demanding change, they were able to make their mark as a prominent organization that fights for equal treatment of black people. Since its inception, the BLM movement has inspired the creation of sister branches in eighteen different cities across the world.  "
+            android:text="      Throughout American history, racism towards black people has been extremely prevalent. Slavery, segregation, and the blatant mistreatment towards people of color has allowed generations of people to treat black people differently due to their deeply ingrained racist opinions about them. In 2013, the Black Lives Matter movement officially became an organization headed by public speaker Alicia Garza, freedom fighter Patrisse Cullors, and writer Opal Tometi. It was created in response to the acquittal of the shooter responsible for the murder of Trayvon Martin, a 17 year old African American boy who was wrongfully shot."
             android:textColor="#000000" />
 
         <LinearLayout
@@ -54,6 +54,17 @@
                 android:src="@drawable/blmmm11" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="      The Black Lives Matter movement is an ideological and political platform that highlights situations where black people are put to a disadvantage due to racism. This movement’s main focus has been centered around police brutality because it has heavily impacted the black community. By holding protests and demanding change, they were able to make their mark as a prominent organization that fights for equal treatment of black people. Since its inception, the BLM movement has inspired the creation of sister branches in eighteen different cities across the world."
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Present_Day"
