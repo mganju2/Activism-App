@@ -211,12 +211,23 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="379dp"
-            android:layout_height="269dp"
+            android:layout_height="87dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="      The most powerful voice is from the people. The strongest protection of this planet is from the people. Reading more about the science behind global warming, climate change, ocean conservation, and all the movements Greenpeace is working to support will shed light on how much Americans do not prioritize the health of this world. It is important to support these movements, and the best way to do it is to vote for officials that put the environment as a high priority. Without a clean earth, there is nothing to leave for our children and grandchildren other than a mess of extra problems. Not just for the health of future generations, it’s important to care for the health of helpless creatures and prevent their extinction. By supporting officials that care about environmental preservation, you are taking a step to help the world. "
+            android:text="      Earth provides a home for us that is irreplaceable, so it is time we start treating it right. Many politicians including the current President think many environmental issues are a hoax or not important. This ignorance only adds to the problem and delays the start of actual change."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="379dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="The power to vote is not something that should be taken lightly. It gives people more power than he or she realizes to help create real change. Voting for bills and local community leaders is a great way to support the Green Peace community. Vote for officials who are supportive of the community and are willing to pass laws to help them create change. Vote for bills that actively try to help these individuals in any way."
             android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>

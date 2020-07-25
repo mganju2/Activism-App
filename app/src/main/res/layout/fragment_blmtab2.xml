@@ -254,25 +254,25 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="      This movement has two sides to it: social justice and political justice. It is important for society’s mindset to change when it comes to how they treat black people. However, it is equally as important to change the justice system that has failed black people time and time again. Vote for officials that want to address the problem head on and find ways to finally fix the very broken system we have been dealing with."
-            android:textColor="#000000" />
-
-        <TextView
             android:id="@+id/textView76"
             android:layout_width="match_parent"
-            android:layout_height="214dp"
+            android:layout_height="205dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="      More than 40% of registered black voters are unable to vote due to various obstacles such as either lacking means of transportation or lacking time off of work, and also through being discouraged to vote due to their minority status in most communities. Because of the voter suppression many black people face, we as the allies have the power to help make a difference by exhibiting our undisturbed privilege to vote. You have the power to help make the difference and create a safer world for black people and everyone else. So register now and vote in the 2020 primaries and elections and every year after that, because the discrimination and hate must come to an end."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="370dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="      The power to vote is not something that should be taken lightly. It gives people more power than he or she realizes to help create real change. Voting for bills and local community leaders is a great way to support the black community. Vote for officials who are supportive of the community and are willing to pass laws to create equal rights for them. Vote for bills that actively try to stop discrimination, in any way, against these individuals."
             android:textColor="#000000" />
 
     </LinearLayout>

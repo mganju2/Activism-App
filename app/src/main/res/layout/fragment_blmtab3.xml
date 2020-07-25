@@ -39,8 +39,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="Here, we have attached links to several videos and articles you can read to educate yourself further on Black Lives Matter."/>
+            android:text="Videos and articles about Black Lives Matter - "
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView26"
@@ -144,8 +144,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:textColor="#000000"
-            android:text="This is a google doc that has a lot more information on the current black lives matter movement. There is a lot of educational information as well as information on how to help in your local communities." />
-
+            android:text="This is a google doc that has a lot more information on the current black lives matter movement."/>
         <TextView
             android:id="@+id/textView80"
             android:layout_width="match_parent"
