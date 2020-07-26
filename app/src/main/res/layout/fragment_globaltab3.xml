@@ -43,68 +43,89 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Below is the link to explore about Greenpeace and all the work they are doing."
+            android:text="Videos and Articles about GreenPeace - "
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/GP"
-            android:layout_width="match_parent"
-            android:layout_height="29dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.greenpeace.org/usa/" />
-
-        <TextView
-            android:id="@+id/textView96"
+            android:id="@+id/gInfo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="A current and important environmental and global issue that has been talked about a lot recently is global warming. This article breaks down what it is and what you need to know about it. "
-            android:textColor="#000000" />
+            android:text="GreenPeace"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView97"
+            android:id="@+id/gInfo2"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="GreenPeace Achievements"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/gInfo3"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Global Warming 101"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="https://www.nrdc.org/stories/global-warming-101" />
+            android:text="For some more current news on global warming take a look at these articles -  \n \n"
+            android:textColor="#000000" />
 
         <TextView
+            android:id="@+id/gInfo4"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Climate Sensitivity"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/gInfo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Groundbreaking Study"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/gInfo6"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="For some more current news on global warming take a look at these articles. \nhttps://www.washingtonpost.com/weather/2020/07/22/climate-sensitivity-co2 \nhttps://www.scientificamerican.com/article/worst-and-best-case-scenarios-for-warming-less-likely-groundbreaking-study-finds/"
-            android:textColor="#000000" />
-
-        <TextView
-            android:id="@+id/textView98"
-            android:layout_width="match_parent"
-            android:layout_height="97dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Greta Thunberg is a 17 year old environmental activist making real change in today's world. Here is an article about all the amazing work she has done so far and is continuing to do so. \nhttps://time.com/person-of-the-year-2019-greta-thunberg/"
-            android:textColor="#000000" />
+            android:text="Greta Thunberg - 17 Year old Activist"
+            android:textColor="#E91E63" />
 
         <TextView
             android:layout_width="match_parent"

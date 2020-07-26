@@ -115,8 +115,6 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
             android:text="Campaign Zero"
             android:textColor="#E91E63" />
 
@@ -148,8 +146,6 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
             android:text="Justice For Breonna Taylor"
             android:textColor="#E91E63" />
 
@@ -183,8 +179,6 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
             android:text="More BLM Petitions!"
             android:textColor="#E91E63" />
 

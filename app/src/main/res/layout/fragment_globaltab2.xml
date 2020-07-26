@@ -73,40 +73,37 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView74"
+            android:id="@+id/gDonation1"
             android:layout_width="match_parent"
-            android:layout_height="23dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.greenpeace.org/international/act/volunteer/" />
+            android:text="GreenPeace Volunteers"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/gDonation2"
             android:layout_width="371dp"
-            android:layout_height="90dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://engage.us.greenpeace.org/onlineactions/Qwf5Xj_ZxEejPr_BIHiYvQ2?&amp;;utm_source=website&amp;utm_medium=homepage&amp;utm_campaign=website_donation_form_(header)&amp;_ga=2.140894834.1942478446.1594342279-1540900807.1592162536" />
+            android:text="GreenPeace Donations"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView68"
+            android:id="@+id/gDonation3"
             android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.greenpeace.org/usa/actions/" />
+            android:text="GreenPeace Actions"
+            android:textColor="#E91E63"/>
 
         <TextView
             android:id="@+id/Petitons"
@@ -129,29 +126,26 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView69"
+            android:id="@+id/gPetition1"
             android:layout_width="379dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.greenpeace.org/usa/take-action/"
-            android:textColor="#000000" />
+            android:text="GreenPeace Petitions"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView70"
+            android:id="@+id/gPetition2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.fairplanet.org/support/greenpeace-petition-%E2%80%98no-more-climate-wrecking-oil-ads%E2%80%99/" />
+            android:text="Read, Debate, Engage"
+            android:textColor="#E91E63"/>
 
         <TextView
             android:id="@+id/Protests"
