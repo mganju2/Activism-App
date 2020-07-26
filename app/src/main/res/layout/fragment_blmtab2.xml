@@ -75,56 +75,50 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/blmDonation1"
             android:layout_width="377dp"
-            android:layout_height="64dp"
+            android:layout_height="22dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Here is a list of 142 places you can donate to show your support for BLM!- https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html"
-            android:textColor="#000000" />
+            android:text="142 Ways to Donate to help BLM!"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/blmDonation2"
             android:layout_width="377dp"
-            android:layout_height="64dp"
+            android:layout_height="21dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="There is also a list of 24 places to support, each link is provided in the article itself! - https://www.allure.com/story/black-lives-matter-where-to-donate"
-            android:textColor="#000000" />
+            android:text="24 organizations to Donate to"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/blmDonation3"
             android:layout_width="377dp"
-            android:layout_height="64dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Minnesota Freedom Fund is a nonprofit that pays bail for people that are arrested while protesting police brutality - https://minnesotafreedomfund.org/"
-            android:textColor="#000000" />
+            android:text="Minnesota Freedom Fund"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/blmDonation4"
             android:layout_width="377dp"
-            android:layout_height="64dp"
+            android:layout_height="22dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Campaign Zero is an organization that finds research based solutions to end police brutality - \nhttps://www.joincampaignzero.org/"
-            android:textColor="#000000"/>
+            android:text="Campaign Zero"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -147,56 +141,52 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textview24"
+            android:id="@+id/blmPetition1"
             android:layout_width="371dp"
-            android:layout_height="64dp"
+            android:layout_height="19dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Justice For Breonna Taylor - https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page"
-            android:textColor="#000000" />
+            android:text="Justice For Breonna Taylor"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/blmPetition2"
             android:layout_width="371dp"
-            android:layout_height="64dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Justice for Elijah McClain - https://www.change.org/p/aurora-colorado-district-attorney-justice-for-elijah-mcclain?source_location=topic_page"
-            android:textColor="#000000" />
+            android:text="Justice for Elijah McClain"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/blmPetition3"
             android:layout_width="371dp"
-            android:layout_height="64dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Justice for George Floyd - https://www.change.org/p/mayor-jacob-frey-justice-for-george-floyd?source_location=topic_page"
-            android:textColor="#000000" />
+            android:text="Justice for George Floyd"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/blmPetition4"
             android:layout_width="370dp"
-            android:layout_height="47dp"
+            android:layout_height="22dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
             android:autoLink="web"
             android:linksClickable="true"
-            android:text="Many more petitions can be found at https://www.change.org/ "
-            android:textColor="#000000" />
+            android:text="More BLM Petitions!"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/Protests"
