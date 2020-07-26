@@ -27,72 +27,57 @@
         <TextView
             android:id="@+id/textView42"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="There is a lot more to learn about March For Our Lives so we have provided some resources that can help further your knowledge about this subject!"
+            android:text="Articles and Videos on March For Our Lives - "
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView78"
+            android:id="@+id/mfolInfo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Here we have added some links to articles and videos that elaborate on the March For Our Lives history and past movements."
-            android:textColor="#000000"/>
+            android:text="March For Our Lives Explained"
+            android:textColor="#E91E63"/>
 
         <TextView
-            android:id="@+id/textView79"
+            android:id="@+id/mfolInfo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://mashable.com/2018/03/22/march-for-our-lives-when-where-what-explained/" />
+            android:text="Extra MFOL Info"
+            android:textColor="#E91E63"/>
 
         <TextView
-            android:id="@+id/textView81"
+            android:id="@+id/mfolInfo3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://people.com/crime/what-is-march-for-our-lives-2018/" />
+            android:text="The Students Behind the March"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView82"
+            android:id="@+id/mfolInfo6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="37dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://libguides.com.edu/MarchLives" />
-
-        <TextView
-            android:id="@+id/textView83"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.smithsonianmag.com/innovation/march-for-our-lives-student-activists-showed-meaning-tragedy-180970717/" />
+            android:text="How the Pandemic has Affected Gun Violence"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/textView88"
@@ -102,54 +87,32 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="The links below talk about the marches that took place in 2018 and how powerful they were." />
+            android:text="The links below talk about the marches that took place in 2018 and how powerful they were."
+            android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView100"
+            android:id="@+id/mfolInfo4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.cbsnews.com/news/march-for-our-lives-39-days-how-parkland-students-turned-grief-into-action/" />
+            android:text="Parkland Students - Turning Grief into Action"
+            android:textColor="#E91E63"/>
 
         <TextView
-            android:id="@+id/textView91"
+            android:id="@+id/mfolInfo5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://giffords.org/blog/2019/03/7-ways-america-changed-since-the-march-for-our-lives/" />
+            android:text="How America had Changed since MFOL"
+            android:textColor="#E91E63" />
 
-        <TextView
-            android:id="@+id/textView94"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="Here is a recent article explaineing the spike in gun violence during this pandemic." />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.cnn.com/2020/07/01/us/homicides-shootings-spike-us-cities/index.html"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

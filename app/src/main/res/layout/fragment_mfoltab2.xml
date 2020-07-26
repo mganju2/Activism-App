@@ -68,69 +68,59 @@
             android:textColor="#000000"/>
 
         <TextView
-            android:id="@+id/textView62"
+            android:id="@+id/mfolDonation1"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="March For Our Lives is a student led organization focused on ending gun violence specifically in schools - \nhttps://marchforourlives.com/" />
+            android:textColor="#E91E63"
+            android:text="March For Our Lives Donations" />
 
         <TextView
-            android:id="@+id/textView58"
+            android:id="@+id/mfolDonation2"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Everytown for Gun Safety focuses on ending gun violence in all communities and they have multiple branches focusing on different issues related to gun control and violence. - https://everytown.org/ " />
+            android:textColor="#E91E63"
+            android:text="Everytown for Gun Safety" />
 
         <TextView
-            android:id="@+id/textView59"
+            android:id="@+id/mfolDonation3"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Brady has many programs including combating crime guns, educating gun owners, educating the youth, and going to court with the gun industry. - \nhttps://www.bradyunited.org/" />
+            android:textColor="#E91E63"
+            android:text="Brady" />
 
         <TextView
-            android:id="@+id/textView60"
+            android:id="@+id/mfolDonation4"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Giffords is an organization that is focused on 3 key points when it comes to gun violence. They believe there must be a change in American culture, they propose new gun policies, and they hold the gun lobby accountable for profiting off the public. - https://giffords.org/ " />
+            android:textColor="#E91E63"
+            android:text="Giffords" />
 
         <TextView
-            android:id="@+id/textView61"
+            android:id="@+id/mfolDonation5"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="The Coalition to Stop Gun Violence (CSGV) - Their mission is to stop gun violence through evidence based solutions. - https://www.csgv.org/" />
+            android:textColor="#E91E63"
+            android:text="The Coalition to Stop Gun Violence (CSGV)" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -153,29 +143,48 @@
             android:text="Here are a few to get started on. It just takes a few clicks to help push forward the change! These petitions below are all targeted at creating stricter gun control laws. For more details on each specific petition click on the links below. " />
 
         <TextView
-            android:id="@+id/textView41"
+            android:id="@+id/mfolPetition1"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.change.org/p/march-for-our-lives-an-act-to-protect-save-your-children?signed=true\nhttps://sign.moveon.org/petitions/gun-control-now-1\nhttps://sign.moveon.org/petitions/gun-control-now-101" />
+            android:text="March For Our Lives Petition"
+            android:textColor="#E91E63"/>
 
         <TextView
-            android:id="@+id/textView57"
+            android:id="@+id/mfolPetition2"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="For many more petitions related to gun violence and control check out - https://www.change.org/t/gun-control"
-            android:textColor="#000000" />
+            android:text="Gun Control Petition"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/mfolPetition3"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="MoveOn Petition"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/mfolPetition4"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:text="More Petitions"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/Protests"
