@@ -68,69 +68,59 @@
 
 
         <TextView
-            android:id="@+id/textView36"
+            android:id="@+id/meDonation1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Me Too is a movement that helps women find ways to heal from experiences of sexual assault - \nhttps://metoomvmt.org/donate/ " />
+            android:textColor="#E91E63"
+            android:text="Me Too Donations" />
 
         <TextView
-            android:id="@+id/textView37"
+            android:id="@+id/meDonation2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="National Sexual Violence Resource Center is a non-profit organization that attempts to prevent and attend to sexual violence - https://www.nsvrc.org/donate" />
+            android:textColor="#E91E63"
+            android:text="National Sexual Violence Resource Center" />
 
         <TextView
-            android:id="@+id/textView38"
+            android:id="@+id/meDonation3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Rape, Abuse &amp; Incest National Network (RAINN) is an anti-sexual assault organization that helps survivors, educates society, and improves public policy. - \nhttps://www.rainn.org/donate" />
+            android:textColor="#E91E63"
+            android:text="Rape, Abuse, and Incest National Network (RAINN)" />
 
         <TextView
-            android:id="@+id/textView39"
+            android:id="@+id/meDonation4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="End Rape On Campus (EROC) is an organization that focuses on sexual assault prevention throughout college campuses. - https://endrapeoncampus.org/our-team-1/ " />
+            android:textColor="#E91E63"
+            android:text="End Rape On Campus (EROC)" />
 
         <TextView
-            android:id="@+id/textView56"
+            android:id="@+id/meDonation5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Time’s Up works towards ending sexual harassment, assault and discrimination in the workplace - \nhttps://timesupnow.org/" />
+            android:textColor="#E91E63"
+            android:text="Time’s Up" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -153,16 +143,15 @@
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView40"
+            android:id="@+id/mePetition1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.change.org/m/metoo" />
+            android:text="Me Too Petitions"
+            android:textColor="#E91E63"/>
 
 
         <TextView

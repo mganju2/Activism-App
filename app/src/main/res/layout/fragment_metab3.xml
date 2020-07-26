@@ -41,94 +41,63 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="Here is an article on why Tarana Burke founded the MeToo movement." />
-
-        <TextView
-            android:id="@+id/textView43"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.businessinsider.com/how-the-metoo-movement-started-where-its-headed-tarana-burke-time-person-of-year-women-2017-12"
+            android:text="Articles and Videos on MeToo - "
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView85"
+            android:id="@+id/meInfo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="Below are a few articles that talk about the impact of MeToo and how it is changing the world." />
+            android:text="How Tarana Burke started MeToo"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView44"
+            android:id="@+id/meInfo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.nbcnews.com/think/opinion/me-too-movement-s-success-took-decade-work-not-just-ncna1108206"
-            android:textColor="#000000" />
+            android:text="MeToo over a Decade"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/meInfo3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.cnn.com/videos/us/2018/12/23/me-too-2018-wrap-lc-me-cs-orig.cnn"
-            android:textColor="#000000" />
+            android:text="2018 the year of MeToo"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView46"
+            android:id="@+id/meInfo4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.kjrh.com/news/national-politics/the-race-2020/how-the-metoo-movement-is-changing-culture"
-            android:textColor="#000000" />
+            android:text="How MeToo is Changing American Culture"
+            android:textColor="#E91E63" />
 
         <TextView
-            android:id="@+id/textView86"
+            android:id="@+id/meInfo5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="#000000"
-            android:text="The video below explains how the modern world is being affected by MeToo." />
-
-        <TextView
-            android:id="@+id/textView87"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.youtube.com/watch?v=ATYK2svJ6eM" />
+            android:text="How it's Changing the Modern World"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/textView93"
@@ -142,16 +111,15 @@
             android:text="Resource on the Go is a podcast created by the National Sexual Violence Resource Center. It focuses on how to prevent and respond to sexual assault. Each episode they have an expert in the field talk about their findings." />
 
         <TextView
-            android:id="@+id/textView90"
+            android:id="@+id/meInfo6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="https://www.nsvrc.org/podcasts" />
+            android:text="NSVRC Podcast"
+            android:textColor="#E91E63"/>
 
         <TextView
             android:layout_width="match_parent"

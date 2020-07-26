@@ -87,8 +87,6 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
             android:text="For some more current news on global warming take a look at these articles -  \n \n"
             android:textColor="#000000" />
 
@@ -122,8 +120,6 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
             android:text="Greta Thunberg - 17 Year old Activist"
             android:textColor="#E91E63" />
 
