@@ -37,37 +37,37 @@ public class pridetab2 extends Fragment {
         Linkify.addLinks(myDonation1, pattern1, scheme1);
 
         TextView myDonation2 = myView.findViewById(R.id.pDonation2);
-        myDonation1.setText("Point Foundation");
+        myDonation2.setText("Point Foundation");
         Pattern pattern2 = Pattern.compile("");
         String scheme2 = "https://pointfoundation.org/";
         Linkify.addLinks(myDonation2, pattern2, scheme2);
 
         TextView myDonation3 = myView.findViewById(R.id.pDonation3);
-        myDonation1.setText("National Center for Transgender Equality");
+        myDonation3.setText("National Center for Transgender Equality");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://transequality.org/";
         Linkify.addLinks(myDonation3, pattern3, scheme3);
 
         TextView myDonation4 = myView.findViewById(R.id.pDonation4);
-        myDonation1.setText("GLSEN");
+        myDonation4.setText("GLSEN");
         Pattern pattern4 = Pattern.compile("");
         String scheme4 = "https://www.glsen.org/";
         Linkify.addLinks(myDonation4, pattern4, scheme4);
 
         TextView myDonation5 = myView.findViewById(R.id.pDonation5);
-        myDonation1.setText("It Gets Better");
+        myDonation5.setText("It Gets Better");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://itgetsbetter.org/";
         Linkify.addLinks(myDonation5, pattern5, scheme5);
 
         TextView myPetition1 = myView.findViewById(R.id.pPetition1);
-        myDonation1.setText("LGBTQIA+ Petitions");
+        myPetition1.setText("LGBTQIA+ Petitions");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://www.thepetitionsite.com/lgbtq-rights/#hottest";
         Linkify.addLinks(myPetition1, pattern6, scheme6);
 
         TextView myPetition2 = myView.findViewById(R.id.pPetition2);
-        myDonation1.setText("Change.org - LGBTQIA+ Petitions");
+        myPetition2.setText("Change.org - LGBTQIA+ Petitions");
         Pattern pattern7 = Pattern.compile("");
         String scheme7 = "https://www.change.org/t/lgbt-rights-3";
         Linkify.addLinks(myPetition2, pattern7, scheme7);

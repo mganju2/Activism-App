@@ -37,13 +37,13 @@ public class globaltab2 extends Fragment {
         Linkify.addLinks(myDonation1, pattern1, scheme1);
 
         TextView myDonation2 = myView.findViewById(R.id.gDonation2);
-        myDonation1.setText("GreenPeace Donations");
+        myDonation2.setText("GreenPeace Donations");
         Pattern pattern2 = Pattern.compile("");
         String scheme2 = "https://engage.us.greenpeace.org/onlineactions/Qwf5Xj_ZxEejPr_BIHiYvQ2?&amp;;utm_source=website&amp;utm_medium=homepage&amp;utm_campaign=website_donation_form_(header)&amp;_ga=2.140894834.1942478446.1594342279-1540900807.1592162536";
         Linkify.addLinks(myDonation2, pattern2, scheme2);
 
         TextView myDonation3 = myView.findViewById(R.id.gDonation3);
-        myDonation1.setText("GreenPeace Actions");
+        myDonation3.setText("GreenPeace Actions");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://www.greenpeace.org/usa/actions/";
         Linkify.addLinks(myDonation3, pattern3, scheme3);
@@ -55,7 +55,7 @@ public class globaltab2 extends Fragment {
         Linkify.addLinks(myPetition1, pattern4, scheme4);
 
         TextView myPetition2 = myView.findViewById(R.id.gPetition2);
-        myPetition1.setText("Read, Debate, Engage");
+        myPetition2.setText("Read, Debate, Engage");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://www.fairplanet.org/support/greenpeace-petition-%E2%80%98no-more-climate-wrecking-oil-ads%E2%80%99/";
         Linkify.addLinks(myPetition2, pattern5, scheme5);
