@@ -43,25 +43,25 @@ public class metab3 extends Fragment {
         Linkify.addLinks(myInfo2, pattern2, scheme2);
 
         TextView myInfo3 = myView.findViewById(R.id.meInfo3);
-        myInfo2.setText("2018 the year of MeToo");
+        myInfo3.setText("2018 the year of MeToo");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://www.cnn.com/videos/us/2018/12/23/me-too-2018-wrap-lc-me-cs-orig.cnn";
         Linkify.addLinks(myInfo3, pattern3, scheme3);
 
         TextView myInfo4 = myView.findViewById(R.id.meInfo4);
-        myInfo2.setText("How MeToo is Changing American Culture");
+        myInfo4.setText("How MeToo is Changing American Culture");
         Pattern pattern4 = Pattern.compile("");
         String scheme4 = "https://www.kjrh.com/news/national-politics/the-race-2020/how-the-metoo-movement-is-changing-culture";
         Linkify.addLinks(myInfo4, pattern4, scheme4);
 
         TextView myInfo5 = myView.findViewById(R.id.meInfo5);
-        myInfo2.setText("How it's Changing the Modern World");
+        myInfo5.setText("How it's Changing the Modern World");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://www.youtube.com/watch?v=ATYK2svJ6eM";
         Linkify.addLinks(myInfo5, pattern5, scheme5);
 
         TextView myInfo6 = myView.findViewById(R.id.meInfo6);
-        myInfo2.setText("NSVRC Podcast");
+        myInfo6.setText("NSVRC Podcast");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://www.nsvrc.org/podcasts";
         Linkify.addLinks(myInfo6, pattern6, scheme6);

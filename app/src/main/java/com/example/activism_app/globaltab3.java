@@ -37,31 +37,31 @@ public class globaltab3 extends Fragment {
         Linkify.addLinks(myInfo1, pattern1, scheme1);
 
         TextView myInfo2 = myView.findViewById(R.id.gInfo2);
-        myInfo1.setText("GreenPeace Achievements");
+        myInfo2.setText("GreenPeace Achievements");
         Pattern pattern2 = Pattern.compile("");
         String scheme2 = "https://www.greenpeace.org/eastasia/achievements/";
         Linkify.addLinks(myInfo2, pattern2, scheme2);
 
         TextView myInfo3 = myView.findViewById(R.id.gInfo3);
-        myInfo1.setText("Global Warming 101");
+        myInfo3.setText("Global Warming 101");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://www.nrdc.org/stories/global-warming-101";
         Linkify.addLinks(myInfo3, pattern3, scheme3);
 
         TextView myInfo4 = myView.findViewById(R.id.gInfo4);
-        myInfo1.setText("Climate Sensitivity");
+        myInfo4.setText("Climate Sensitivity");
         Pattern pattern4 = Pattern.compile("");
         String scheme4 = "https://www.washingtonpost.com/weather/2020/07/22/climate-sensitivity-co2";
         Linkify.addLinks(myInfo4, pattern4, scheme4);
 
         TextView myInfo5 = myView.findViewById(R.id.gInfo5);
-        myInfo1.setText("Groundbreaking Study");
+        myInfo5.setText("Groundbreaking Study");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://www.scientificamerican.com/article/worst-and-best-case-scenarios-for-warming-less-likely-groundbreaking-study-finds/";
         Linkify.addLinks(myInfo5, pattern5, scheme5);
 
         TextView myInfo6 = myView.findViewById(R.id.gInfo6);
-        myInfo1.setText("Greta Thunberg - 17 Year old Activist");
+        myInfo6.setText("Greta Thunberg - 17 Year old Activist");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://time.com/person-of-the-year-2019-greta-thunberg/";
         Linkify.addLinks(myInfo6, pattern6, scheme6);

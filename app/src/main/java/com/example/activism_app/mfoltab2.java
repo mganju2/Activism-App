@@ -37,37 +37,37 @@ public class mfoltab2 extends Fragment {
         Linkify.addLinks(myDonation1, pattern1, scheme1);
 
         TextView myDonation2 = myView.findViewById(R.id.mfolDonation2);
-        myDonation1.setText("Everytown for Gun Safety");
+        myDonation2.setText("Everytown for Gun Safety");
         Pattern pattern2 = Pattern.compile("");
         String scheme2 = "https://everytown.org/";
         Linkify.addLinks(myDonation2, pattern2, scheme2);
 
         TextView myDonation3 = myView.findViewById(R.id.mfolDonation3);
-        myDonation1.setText("Brady");
+        myDonation2.setText("Brady");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://www.bradyunited.org/";
         Linkify.addLinks(myDonation3, pattern3, scheme3);
 
         TextView myDonation4 = myView.findViewById(R.id.mfolDonation4);
-        myDonation1.setText("Giffords");
+        myDonation4.setText("Giffords");
         Pattern pattern4 = Pattern.compile("");
         String scheme4 = "https://giffords.org/";
         Linkify.addLinks(myDonation4, pattern4, scheme4);
 
         TextView myDonation5 = myView.findViewById(R.id.mfolDonation5);
-        myDonation1.setText("The Coalition to Stop Gun Violence (CSGV)");
+        myDonation5.setText("The Coalition to Stop Gun Violence (CSGV)");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://www.csgv.org/";
         Linkify.addLinks(myDonation5, pattern5, scheme5);
 
         TextView myPetition1 = myView.findViewById(R.id.mfolPetition1);
-        myDonation1.setText("March For Our Lives Petition");
+        myPetition1.setText("March For Our Lives Petition");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://www.change.org/p/march-for-our-lives-an-act-to-protect-save-your-children?signed=true";
         Linkify.addLinks(myPetition1, pattern6, scheme6);
 
         TextView myPetition2 = myView.findViewById(R.id.mfolPetition2);
-        myDonation1.setText("Gun Control Petition");
+        myPetition2.setText("Gun Control Petition");
         Pattern pattern7 = Pattern.compile("");
         String scheme7 = "https://sign.moveon.org/petitions/gun-control-now-1";
         Linkify.addLinks(myPetition2, pattern7, scheme7);

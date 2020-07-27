@@ -37,31 +37,31 @@ public class mfoltab3 extends Fragment {
         Linkify.addLinks(myInfo1, pattern1, scheme1);
 
         TextView myInfo2 = myView.findViewById(R.id.mfolInfo2);
-        myInfo1.setText("Extra MFOL Info");
+        myInfo2.setText("Extra MFOL Info");
         Pattern pattern2 = Pattern.compile("");
         String scheme2 = "https://libguides.com.edu/MarchLives";
         Linkify.addLinks(myInfo2, pattern2, scheme2);
 
         TextView myInfo3 = myView.findViewById(R.id.mfolInfo3);
-        myInfo1.setText("The Students Behind the March");
+        myInfo3.setText("The Students Behind the March");
         Pattern pattern3 = Pattern.compile("");
         String scheme3 = "https://www.smithsonianmag.com/innovation/march-for-our-lives-student-activists-showed-meaning-tragedy-180970717/";
         Linkify.addLinks(myInfo3, pattern3, scheme3);
 
         TextView myInfo4 = myView.findViewById(R.id.mfolInfo4);
-        myInfo1.setText("Parkland Students - Turning Grief into Action");
+        myInfo4.setText("Parkland Students - Turning Grief into Action");
         Pattern pattern4 = Pattern.compile("");
         String scheme4 = "https://www.cbsnews.com/news/march-for-our-lives-39-days-how-parkland-students-turned-grief-into-action/";
         Linkify.addLinks(myInfo4, pattern4, scheme4);
 
         TextView myInfo5 = myView.findViewById(R.id.mfolInfo5);
-        myInfo1.setText("How America had Changed since MFOL");
+        myInfo5.setText("How America had Changed since MFOL");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://giffords.org/blog/2019/03/7-ways-america-changed-since-the-march-for-our-lives/";
         Linkify.addLinks(myInfo5, pattern5, scheme5);
 
         TextView myInfo6 = myView.findViewById(R.id.mfolInfo6);
-        myInfo1.setText("How the Pandemic has Affected Gun Violence");
+        myInfo6.setText("How the Pandemic has Affected Gun Violence");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://www.cnn.com/2020/07/01/us/homicides-shootings-spike-us-cities/index.html";
         Linkify.addLinks(myInfo6, pattern6, scheme6);

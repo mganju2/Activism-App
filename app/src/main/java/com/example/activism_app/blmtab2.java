@@ -59,25 +59,25 @@ public class blmtab2 extends Fragment {
         Linkify.addLinks(myDonation4, pattern4, scheme4);
 
         TextView myPetition1 = myView.findViewById(R.id.blmPetition1);
-        myDonation4.setText("Justice For Breonna Taylor");
+        myPetition1.setText("Justice For Breonna Taylor");
         Pattern pattern5 = Pattern.compile("");
         String scheme5 = "https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page";
         Linkify.addLinks(myPetition1, pattern5, scheme5);
 
         TextView myPetition2 = myView.findViewById(R.id.blmPetition2);
-        myDonation4.setText("Justice for Elijah McClain");
+        myPetition2.setText("Justice for Elijah McClain");
         Pattern pattern6 = Pattern.compile("");
         String scheme6 = "https://www.change.org/p/aurora-colorado-district-attorney-justice-for-elijah-mcclain?source_location=topic_page";
         Linkify.addLinks(myPetition2, pattern6, scheme6);
 
         TextView myPetition3 = myView.findViewById(R.id.blmPetition3);
-        myDonation4.setText("Justice for George Floyd");
+        myPetition3.setText("Justice for George Floyd");
         Pattern pattern7 = Pattern.compile("");
         String scheme7 = "https://www.change.org/p/mayor-jacob-frey-justice-for-george-floyd?source_location=topic_page";
         Linkify.addLinks(myPetition3, pattern7, scheme7);
 
         TextView myPetition4 = myView.findViewById(R.id.blmPetition4);
-        myDonation4.setText("More BLM Petitions!");
+        myPetition4.setText("More BLM Petitions!");
         Pattern pattern8 = Pattern.compile("");
         String scheme8 = "https://www.change.org/";
         Linkify.addLinks(myPetition4, pattern8, scheme8);
