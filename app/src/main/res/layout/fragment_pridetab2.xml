@@ -72,69 +72,59 @@
             android:textColor="#000000"/>
 
         <TextView
-            android:id="@+id/textView30"
+            android:id="@+id/pDonation1"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="The Trevor Project is a non-profit that focuses on suicide prevention within the LGBTQ+ community - \nhttps://www.thetrevorproject.org/" />
+            android:textColor="#E91E63"
+            android:text="The Trevor Project" />
 
         <TextView
-            android:id="@+id/textView31"
+            android:id="@+id/pDonation2"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="Point Foundation provides financial aid to members of the LGBTQ+ community struggling to pay for college - \nhttps://pointfoundation.org/" />
+            android:textColor="#E91E63"
+            android:text="Point Foundation" />
 
         <TextView
-            android:id="@+id/textView53"
+            android:id="@+id/pDonation3"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="National Center for Transgender Equality is the leading advocacy group for transgender people. They provide many resources from legal help to family support. - https://transequality.org/" />
+            android:textColor="#E91E63"
+            android:text="National Center for Transgender Equality" />
 
         <TextView
-            android:id="@+id/textView54"
+            android:id="@+id/pDonation4"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="GLSEN is a national education organization targeted to make K-12 schools a safe environment for LGBTQ+ students - https://www.glsen.org/" />
+            android:textColor="#E91E63"
+            android:text="GLSEN" />
 
         <TextView
-            android:id="@+id/textView55"
+            android:id="@+id/pDonation5"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="155dp"
             android:layout_marginRight="155dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:textColor="#000000"
-            android:text="It Gets Better is a non-profit organization dedicated to empowering LGBTQ+ youth around the world -\nhttps://itgetsbetter.org/" />
+            android:textColor="#E91E63"
+            android:text="It Gets Better" />
 
         <TextView
             android:id="@+id/Petitons"
@@ -156,7 +146,29 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:textColor="#000000"
-            android:text="Here are two websites full of many petitions to push forward change for the LGBTQIA+ community. It will only take a few clicks to help make a big difference in many people’s lives. Please help push forward the change!\nhttps://www.thepetitionsite.com/lgbtq-rights/#hottest\nhttps://www.change.org/t/lgbt-rights-3" />
+            android:text="It will only take a few clicks to help make a big difference in many people’s lives. Please help push forward the change!" />
+
+        <TextView
+            android:id="@+id/pPetition1"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#E91E63"
+            android:text="LGBTQIA+ Petitions"/>
+
+        <TextView
+            android:id="@+id/pPetition2"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:textColor="#E91E63"
+            android:text="Change.org - LGBTQIA+ Petitions"/>
 
         <TextView
             android:id="@+id/Protests"

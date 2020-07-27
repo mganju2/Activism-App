@@ -26,39 +26,79 @@
         <TextView
             android:id="@+id/textView49"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="There is a lot more to learn about the LGBTQIA+ community so we have provided some resources that can help further your knowledge about this subject!"
-            android:textColor="#000000"/>
+            android:text="Articles and Videos about the LGBTQIA+ community - "
+            android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView50"
+            android:id="@+id/pInfo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="These are some informational videos on the history or the LGBTQ+ community -\nhttps://www.youtube.com/watch?v=Q1D65SxzojI\nhttps://www.youtube.com/watch?v=wkzwDOCEDCo\nhttps://www.youtube.com/watch?v=GjRv7dJTync"
-            android:textColor="#000000" />
+            android:text="A Living History of the LGBT Movement Since The 1800s"
+            android:textColor="#E91E63"/>
 
         <TextView
-            android:id="@+id/textView51"
+            android:id="@+id/pInfo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Below are a few links that provide important information about some of the movements the LGBTQ+ community has been through in the past.\nhttps://www.britannica.com/topic/gay-rights-movement\nhttps://en.wikipedia.org/wiki/LGBT_social_movements"
-            android:textColor="#000000" />
+            android:text="The History of LGBTQ+ Community"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/pInfo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Stonewall Forever - A Documentary"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/pInfo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Gay Rights Movement"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/pInfo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Overview of Social LGBTQIA+ Movements"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/pInfo6"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="12 Podcasts for Queers"
+            android:textColor="#E91E63" />
 
         <TextView
             android:id="@+id/textView52"
@@ -68,45 +108,42 @@
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="For some current news on the struggles and progress of the LGBTQ+ community please take a look at these websites -\nhttps://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html\nhttps://www.nbcnews.com/feature/nbc-out/adoption-agency-should-be-able-reject-gay-couples-trump-administration-n1224911\nhttps://www.usnews.com/news/best-countries/articles/2020-06-25/lgbtq-acceptance-growing-in-us-and-other-countries-over-time"
+            android:text="Current news on the struggles and progress of the LGBTQ+ community - "
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/textView95"
+            android:id="@+id/pInfo7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="These 2 podcasts are run by queer content creators and they speak about a lot of issues that LGBTQIA+ individuals go through. Some of the topics include dating, sex, how to come out, etc. They can be listened to for free on spotify, apple podcasts, and youtube."
-            android:textColor="#000000" />
+            android:text="Civil Rights Law Protects Gay and Transgender Workers"
+            android:textColor="#E91E63"/>
+
 
         <TextView
+            android:id="@+id/pInfo8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Uneducated - Cammie Scott \nDating Straight - Amy Ordman and Jack Dodge"
-            android:textColor="#000000"/>
+            android:text="Adoption Agency should be able to Reject Gay Couples, Trump Administration Argues"
+            android:textColor="#e91E63"/>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/pInfo9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:autoLink="web"
-            android:linksClickable="true"
-            android:text="Here is a list of 12 other podcasts for queer people and allys - https://www.advocate.com/media/2019/5/17/12-gay-lgbtq-podcasts-you-should-be-listening#media-gallery-media-4"
-            android:textColor="#000000" />
-
+            android:text="Global Acceptance of LGBTQ On the Rise"
+            android:textColor="#E91E63"/>
 
         <TextView
             android:layout_width="match_parent"
